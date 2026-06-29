@@ -310,7 +310,7 @@ class ShotTimerView extends WatchUi.View {
             Graphics.TEXT_JUSTIFY_CENTER);
 
         // Settings summary line.
-        var summary = sensitivityLabel() + "  |  " + delayLabel();
+        var summary = drillLabel() + "  |  " + delayLabel();
         if (_settings.parEnabled) {
             summary += "  |  PAR " + _settings.parSeconds.format("%.1f") + "s";
         }
@@ -424,12 +424,14 @@ class ShotTimerView extends WatchUi.View {
         return (ms / 1000.0).format("%.2f");
     }
 
-    private function sensitivityLabel() as String {
-        switch (_settings.sensitivity) {
-            case SENS_HIGH:   return WatchUi.loadResource(Rez.Strings.SensHigh) as String;
-            case SENS_LOW:    return WatchUi.loadResource(Rez.Strings.SensLow) as String;
-            case SENS_MEDIUM:
-            default:          return WatchUi.loadResource(Rez.Strings.SensMedium) as String;
+    private function drillLabel() as String {
+        switch (_settings.drill) {
+            case DRILL_BILL:            return WatchUi.loadResource(Rez.Strings.DrillBill) as String;
+            case DRILL_MOZAMBIQUE:      return WatchUi.loadResource(Rez.Strings.DrillMozambique) as String;
+            case DRILL_ONE_RELOAD_ONE:  return WatchUi.loadResource(Rez.Strings.DrillOneReloadOne) as String;
+            case DRILL_EL_PREZ:         return WatchUi.loadResource(Rez.Strings.DrillElPrez) as String;
+            case DRILL_UNSTRUCTURED:
+            default:                    return WatchUi.loadResource(Rez.Strings.DrillUnstructured) as String;
         }
     }
 

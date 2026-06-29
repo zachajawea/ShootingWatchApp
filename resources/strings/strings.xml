@@ -15,10 +15,12 @@
 
     <!-- Settings menu -->
     <string id="Settings">Settings</string>
-    <string id="Sensitivity">Sensitivity</string>
-    <string id="SensLow">Low</string>
-    <string id="SensMedium">Medium</string>
-    <string id="SensHigh">High</string>
+    <string id="CourseFire">Course of Fire</string>
+    <string id="DrillBill">Bill Drill</string>
+    <string id="DrillMozambique">Mozambique</string>
+    <string id="DrillOneReloadOne">1-Reload-1</string>
+    <string id="DrillElPrez">El Presidente</string>
+    <string id="DrillUnstructured">Unstructured</string>
     <string id="StartDelay">Start Delay</string>
     <string id="DelayInstant">Instant</string>
     <string id="DelayFixed">Fixed 3s</string>

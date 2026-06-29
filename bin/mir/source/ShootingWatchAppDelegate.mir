@@ -22,33 +22,74 @@ C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatch
         invoke %tmp.2 %tmp.3();
 C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_6_26_8_4_stop:
     }
-    [ @file = "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc"; @line = 10; @symbol_functiondef = [onMenu,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
-    function onMenu() as Boolean {
-C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_33_13_4_start:
+    [ @file = "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc"; @line = 10; @symbol_functiondef = [onSelect,10,13,21]; @symbol_return<0> = [Boolean,10,27,34]; ]
+    function onSelect() as Boolean {
+C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_35_14_4_start:
 [ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 11 8 ]
-        symbol [ WatchUi %tmp.1 11 8 15 ];
+        [ "C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_35_14_4_start" "C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_35_14_4_stop" ]
+        %view.1 = local;
+        symbol [ view %view.1 11 12 16 ];
+        symbol [ ShotTimerView %tmp.4 11 23 36 ];
+        %tmp.4 = getv ? :ShotTimerView;
+        %tmp.5 = self;
+        symbol [ getApp %tmp.6 11 37 43 ];
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        symbol [ getSettings %tmp.8 11 46 57 ];
+        %tmp.8 = getv function %tmp.7 :getSettings;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.1 = newc %tmp.4 (%tmp.9);
+        lputv %view.1 %tmp.1;
+        symbol [ view %view.1 11 12 16 ];
+[ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 12 8 ]
+        symbol [ WatchUi %tmp.10 12 8 15 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.11 12 16 24 ];
+        %tmp.11 = getv function %tmp.10 :pushView;
+        %tmp.12 = lgetv %view.1;
+        symbol [ view %tmp.12 12 25 29 ];
+        symbol [ ShotTimerDelegate %tmp.16 12 35 52 ];
+        %tmp.16 = getv ? :ShotTimerDelegate;
+        %tmp.17 = lgetv %view.1;
+        symbol [ view %tmp.17 12 53 57 ];
+        %tmp.13 = newc %tmp.16 (%tmp.17);
+        symbol [ WatchUi %tmp.18 12 60 67 ];
+        %tmp.18 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.19 12 68 78 ];
+        %tmp.19 = getv %tmp.18 :SLIDE_LEFT;
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.19);
+[ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 13 8 ]
+        %tmp.20 = true;
+        ret %tmp.20;
+C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_35_14_4_stop:
+    }
+    [ @file = "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc"; @line = 16; @symbol_functiondef = [onMenu,16,13,19]; @symbol_return<0> = [Boolean,16,25,32]; ]
+    function onMenu() as Boolean {
+C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_16_33_19_4_start:
+[ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 17 8 ]
+        symbol [ WatchUi %tmp.1 17 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.2 11 16 24 ];
+        symbol [ pushView %tmp.2 17 16 24 ];
         %tmp.2 = getv function %tmp.1 :pushView;
-        symbol [ Rez %tmp.6 11 29 32 ];
+        symbol [ Rez %tmp.6 17 29 32 ];
         %tmp.6 = getv ? :Rez;
-        symbol [ Menus %tmp.7 11 33 38 ];
+        symbol [ Menus %tmp.7 17 33 38 ];
         %tmp.7 = getv %tmp.6 :Menus;
-        symbol [ MainMenu %tmp.8 11 39 47 ];
+        symbol [ MainMenu %tmp.8 17 39 47 ];
         %tmp.8 = getv function ? %tmp.7 :MainMenu;
         %tmp.3 = newc %tmp.8 ();
-        symbol [ ShootingWatchAppMenuDelegate %tmp.12 11 55 83 ];
+        symbol [ ShootingWatchAppMenuDelegate %tmp.12 17 55 83 ];
         %tmp.12 = getv ? :ShootingWatchAppMenuDelegate;
         %tmp.9 = newc %tmp.12 ();
-        symbol [ WatchUi %tmp.13 11 87 94 ];
+        symbol [ WatchUi %tmp.13 17 87 94 ];
         %tmp.13 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_UP %tmp.14 11 95 103 ];
+        symbol [ SLIDE_UP %tmp.14 17 95 103 ];
         %tmp.14 = getv %tmp.13 :SLIDE_UP;
         invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
-[ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 12 8 ]
+[ "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc" 18 8 ]
         %tmp.15 = true;
         ret %tmp.15;
-C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_10_33_13_4_stop:
+C__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_source_ShootingWatchAppDelegate_mc_16_33_19_4_stop:
     }
 }
 [ @file = "C:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\source\ShootingWatchAppDelegate.mc"; @line = 1; ]

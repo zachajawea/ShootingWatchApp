@@ -1,4 +1,12 @@
-<menu id="MainMenu">
-    <menu-item id="item_1" label="@Strings.menu_label_1" />
-    <menu-item id="item_2" label="@Strings.menu_label_2" />
-</menu>
+<resources>
+    <menu2 id="MainMenu">
+        <menu-item id="item_settings" label="@Strings.Settings" />
+    </menu2>
+
+    <menu2 id="SettingsMenu">
+        <menu-item id="item_drill" label="@Strings.CourseFire" />
+        <menu-item id="item_start_delay" label="@Strings.StartDelay" />
+        <menu-item id="item_par_enabled" label="@Strings.ParEnabled" />
+        <menu-item id="item_par_seconds" label="@Strings.ParSeconds" />
+    </menu2>
+</resources>

@@ -4,8 +4,15 @@ import Toybox.WatchUi;
 
 class ShootingWatchAppApp extends Application.AppBase {
 
+    private var _settings as Settings = new Settings();
+
     function initialize() {
         AppBase.initialize();
+        _settings.load();
+    }
+
+    function getSettings() as Settings {
+        return _settings;
     }
 
     // onStart() is called on application start up
@@ -17,8 +24,8 @@ class ShootingWatchAppApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<WatchUi.View or WatchUi.InputDelegate>? {
-        return [ new ShootingWatchAppView(), new ShootingWatchAppDelegate() ] as Array<WatchUi.View or WatchUi.InputDelegate>;
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        return [ new ShootingWatchAppView(), new ShootingWatchAppDelegate() ];
     }
 
 }

@@ -1,7 +1,7 @@
 //
 // SettingsMenu.mc
 //
-// On-watch configuration via Menu2: sensitivity preset, start-delay mode,
+// On-watch configuration via Menu2: course-of-fire drill, start-delay mode,
 // par on/off, and par time. Selecting an item cycles its value in place and
 // updates the item's sub-label. Settings are persisted when the menu closes.
 //
@@ -17,8 +17,8 @@ class SettingsMenu extends WatchUi.Menu2 {
         _settings = settings;
 
         addItem(new WatchUi.MenuItem(
-            WatchUi.loadResource(Rez.Strings.Sensitivity) as String,
-            sensitivityLabel(), :sensitivity, null));
+            WatchUi.loadResource(Rez.Strings.CourseFire) as String,
+            drillLabel(), :drill, null));
 
         addItem(new WatchUi.MenuItem(
             WatchUi.loadResource(Rez.Strings.StartDelay) as String,
@@ -39,9 +39,9 @@ class SettingsMenu extends WatchUi.Menu2 {
 
     // ---- Mutators (called by the delegate) ---------------------------------
 
-    function cycleSensitivity(item as WatchUi.MenuItem) as Void {
-        _settings.sensitivity = ((_settings.sensitivity + 1) % 3) as Sensitivity;
-        item.setSubLabel(sensitivityLabel());
+    function cycleDrill(item as WatchUi.MenuItem) as Void {
+        _settings.drill = ((_settings.drill + 1) % DRILL_COUNT) as Drill;
+        item.setSubLabel(drillLabel());
     }
 
     function cycleDelay(item as WatchUi.MenuItem) as Void {
@@ -64,12 +64,14 @@ class SettingsMenu extends WatchUi.Menu2 {
 
     // ---- Labels ------------------------------------------------------------
 
-    private function sensitivityLabel() as String {
-        switch (_settings.sensitivity) {
-            case SENS_HIGH:   return WatchUi.loadResource(Rez.Strings.SensHigh) as String;
-            case SENS_LOW:    return WatchUi.loadResource(Rez.Strings.SensLow) as String;
-            case SENS_MEDIUM:
-            default:          return WatchUi.loadResource(Rez.Strings.SensMedium) as String;
+    private function drillLabel() as String {
+        switch (_settings.drill) {
+            case DRILL_BILL:            return WatchUi.loadResource(Rez.Strings.DrillBill) as String;
+            case DRILL_MOZAMBIQUE:      return WatchUi.loadResource(Rez.Strings.DrillMozambique) as String;
+            case DRILL_ONE_RELOAD_ONE:  return WatchUi.loadResource(Rez.Strings.DrillOneReloadOne) as String;
+            case DRILL_EL_PREZ:         return WatchUi.loadResource(Rez.Strings.DrillElPrez) as String;
+            case DRILL_UNSTRUCTURED:
+            default:                    return WatchUi.loadResource(Rez.Strings.DrillUnstructured) as String;
         }
     }
 
@@ -99,8 +101,8 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
 
     function onSelect(item as WatchUi.MenuItem) as Void {
         var id = item.getId();
-        if (id == :sensitivity) {
-            _menu.cycleSensitivity(item);
+        if (id == :drill) {
+            _menu.cycleDrill(item);
         } else if (id == :delay) {
             _menu.cycleDelay(item);
         } else if (id == :parOn) {

@@ -8,35 +8,39 @@
 import Toybox.Lang;
 import Toybox.Application.Storage;
 
-// Sensitivity presets. Each maps to an acceleration-magnitude threshold (in
-// milli-G, where rest == ~1000 because of gravity) and a refractory/debounce
-// window (ms) that suppresses the recoil's oscillation tail so one shot is
-// counted once.
-enum Sensitivity {
-    SENS_HIGH = 0,   // light recoil (e.g. rimfire / .22) - most sensitive
-    SENS_MEDIUM = 1, // typical centerfire pistol (9mm / .40)
-    SENS_LOW = 2     // heavy recoil only - fewest false positives
+// Course-of-fire presets. Each has a fixed expected round count that is used
+// later to calibrate shot-detection accuracy. DRILL_UNSTRUCTURED has no fixed
+// count (0) and lets the shooter run any string freely.
+enum Drill {
+    DRILL_BILL           = 0,   // Bill Drill          – 6 rounds
+    DRILL_MOZAMBIQUE     = 1,   // Mozambique Drill    – 3 rounds (2 body + 1 head)
+    DRILL_ONE_RELOAD_ONE = 2,   // 1-Reload-1          – 2 rounds
+    DRILL_EL_PREZ        = 3,   // El Presidente       – 12 rounds
+    DRILL_UNSTRUCTURED   = 4    // Unstructured / open – no fixed count
 }
+
+// Number of values in the Drill enum (used for cycling in the menu).
+const DRILL_COUNT as Number = 5;
 
 // Behavior of the delay between pressing START and the start beep.
 enum DelayMode {
     DELAY_INSTANT = 0,
-    DELAY_FIXED = 1,   // fixed 3 s
-    DELAY_RANDOM = 2   // random 2-4 s (par-timer style "stand by ... beep")
+    DELAY_FIXED   = 1,  // fixed 3 s
+    DELAY_RANDOM  = 2   // random 2-4 s (par-timer style "stand by ... beep")
 }
 
 class Settings {
 
     // Storage keys
-    private const KEY_SENS as String = "sensitivity";
-    private const KEY_DELAY as String = "delayMode";
-    private const KEY_PAR_ON as String = "parEnabled";
+    private const KEY_DRILL   as String = "drill";
+    private const KEY_DELAY   as String = "delayMode";
+    private const KEY_PAR_ON  as String = "parEnabled";
     private const KEY_PAR_SEC as String = "parSeconds";
 
-    public var sensitivity as Sensitivity = SENS_MEDIUM;
-    public var delayMode as DelayMode = DELAY_RANDOM;
-    public var parEnabled as Boolean = false;
-    public var parSeconds as Float = 3.0;
+    public var drill      as Drill     = DRILL_UNSTRUCTURED;
+    public var delayMode  as DelayMode = DELAY_RANDOM;
+    public var parEnabled as Boolean   = false;
+    public var parSeconds as Float     = 3.0;
 
     function initialize() {
     }
@@ -45,8 +49,8 @@ class Settings {
 
     function load() as Void {
         var v;
-        v = Storage.getValue(KEY_SENS);
-        if (v != null) { sensitivity = v as Sensitivity; }
+        v = Storage.getValue(KEY_DRILL);
+        if (v != null) { drill = v as Drill; }
         v = Storage.getValue(KEY_DELAY);
         if (v != null) { delayMode = v as DelayMode; }
         v = Storage.getValue(KEY_PAR_ON);
@@ -56,44 +60,43 @@ class Settings {
     }
 
     function save() as Void {
-        Storage.setValue(KEY_SENS, sensitivity);
-        Storage.setValue(KEY_DELAY, delayMode);
-        Storage.setValue(KEY_PAR_ON, parEnabled);
+        Storage.setValue(KEY_DRILL,   drill);
+        Storage.setValue(KEY_DELAY,   delayMode);
+        Storage.setValue(KEY_PAR_ON,  parEnabled);
         Storage.setValue(KEY_PAR_SEC, parSeconds);
     }
 
-    // ---- Derived detection tuning -----------------------------------------
+    // ---- Drill metadata ----------------------------------------------------
 
-    // Acceleration-magnitude threshold in milli-G for the current sensitivity.
-    function getThresholdMilliG() as Number {
-        switch (sensitivity) {
-            case SENS_HIGH:   return 2200;
-            case SENS_LOW:    return 4200;
-            case SENS_MEDIUM:
-            default:          return 3000;
+    // Expected round count for the selected drill.  Returns 0 for
+    // DRILL_UNSTRUCTURED (no fixed count).  Callers can use 0 to mean
+    // "unconstrained" when calibrating detection accuracy.
+    function getDrillExpectedRounds() as Number {
+        switch (drill) {
+            case DRILL_BILL:            return 6;
+            case DRILL_MOZAMBIQUE:      return 3;
+            case DRILL_ONE_RELOAD_ONE:  return 2;
+            case DRILL_EL_PREZ:         return 12;
+            case DRILL_UNSTRUCTURED:
+            default:                    return 0;
         }
     }
 
-    // Debounce window in ms between two distinct shots for the current
-    // sensitivity. Tighter when more sensitive so fast splits still register.
-    function getRefractoryMs() as Number {
-        switch (sensitivity) {
-            case SENS_HIGH:   return 90;
-            case SENS_LOW:    return 130;
-            case SENS_MEDIUM:
-            default:          return 110;
-        }
-    }
+    // ---- Fixed detection tuning --------------------------------------------
+    // Sensitivity is no longer user-configurable; these constants represent
+    // the "medium" preset that suits typical centerfire pistol recoil.
 
-    // Delay (ms) before the start beep, given the configured mode.
+    function getThresholdMilliG() as Number { return 3000; }
+    function getRefractoryMs()    as Number { return 110;  }
+
+    // ---- Derived delay -----------------------------------------------------
+
     function computeStartDelayMs() as Number {
         switch (delayMode) {
             case DELAY_INSTANT: return 0;
             case DELAY_FIXED:   return 3000;
             case DELAY_RANDOM:
             default:
-                // 2000-4000 ms inclusive-ish: Math.rand() returns a non-negative
-                // Number; take it modulo the 2001 ms span and offset by 2000.
                 return 2000 + (Toybox.Math.rand() % 2001);
         }
     }
