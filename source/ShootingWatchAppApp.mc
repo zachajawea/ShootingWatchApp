@@ -17,8 +17,8 @@ class ShootingWatchAppApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new ShootingWatchAppView(), new ShootingWatchAppDelegate() ] as Array<Views or InputDelegates>;
+    function getInitialView() as Array<WatchUi.View or WatchUi.InputDelegate>? {
+        return [ new ShootingWatchAppView(), new ShootingWatchAppDelegate() ] as Array<WatchUi.View or WatchUi.InputDelegate>;
     }
 
 }

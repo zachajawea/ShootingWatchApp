@@ -1,8 +1,30 @@
-<strings>
-    <string id="AppName">ShootingWatchApp</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="AppName">Shot Timer</string>
 
-    <string id="prompt">Click the menu button</string>
+    <!-- Main view -->
+    <string id="Ready">READY</string>
+    <string id="PressStartHint">Press START</string>
+    <string id="Standby">STAND BY</string>
+    <string id="Shots">SHOTS</string>
+    <string id="FirstShot">1st</string>
+    <string id="Split">SPLIT</string>
+    <string id="Total">TOTAL</string>
+    <string id="Par">PAR</string>
+    <string id="NoShots">No shots detected</string>
 
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
-</strings>
+    <!-- Settings menu -->
+    <string id="Settings">Settings</string>
+    <string id="Sensitivity">Sensitivity</string>
+    <string id="SensLow">Low</string>
+    <string id="SensMedium">Medium</string>
+    <string id="SensHigh">High</string>
+    <string id="StartDelay">Start Delay</string>
+    <string id="DelayInstant">Instant</string>
+    <string id="DelayFixed">Fixed 3s</string>
+    <string id="DelayRandom">Random 2-4s</string>
+    <string id="ParEnabled">Par Time</string>
+    <string id="ParSeconds">Par Seconds</string>
+    <string id="On">On</string>
+    <string id="Off">Off</string>
+</resources>

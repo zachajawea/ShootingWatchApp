@@ -1,1 +1,13 @@
+# monkey.jungle - Connect IQ build configuration
+#
+# The default project layout (source/ and resources/) is picked up
+# automatically by the compiler, so this file can be minimal. It is kept
+# here explicitly so the project builds cleanly from the command line:
+#
+#   monkeyc -f monkey.jungle -o ShootingTimer.prg -y developer_key.der \
+#           -d fenix7
+#
+# (Use the Connect IQ VS Code extension's "Build" command, or the SDK's
+#  monkeyc, to compile. A developer key is required to sign the .prg.)
+
 project.manifest = manifest.xml

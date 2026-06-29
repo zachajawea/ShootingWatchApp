@@ -1,3 +1,6 @@
-<drawables>
-    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-</drawables>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The launcher icon. Connect IQ scales this PNG to the per-device
+         launcher size automatically. -->
+    <bitmap id="LauncherIcon" filename="launcher_icon.png"/>
+</resources>

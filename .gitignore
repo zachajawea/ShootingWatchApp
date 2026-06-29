@@ -1,0 +1,13 @@
+# Connect IQ build output
+bin/
+gen/
+*.prg
+*.iq
+*.mpn
+
+# Developer signing key — NEVER commit this
+*.der
+
+# Editor / OS
+.DS_Store
+.vscode/
