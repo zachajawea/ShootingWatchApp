@@ -29,4 +29,10 @@
     <string id="ParSeconds">Par Seconds</string>
     <string id="On">On</string>
     <string id="Off">Off</string>
+
+    <!-- Firearm / ammunition profile (drives shot-detection tuning) -->
+    <string id="MuzzleVelocity">Muzzle Velocity</string>
+    <string id="BulletWeight">Bullet Weight</string>
+    <string id="FirearmWeight">Firearm Weight</string>
+    <string id="Detection">Detection</string>
 </resources>

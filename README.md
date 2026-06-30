@@ -28,16 +28,38 @@ A gunshot's recoil is a brief, large spike in acceleration. The app:
    array** (ms). Time 0 is the first sample after the beep, so splits are exact
    differences of sample timestamps regardless of how batches are buffered.
 
-### Sensitivity presets (`source/Settings.mc`)
+### Recoil-derived detection tuning (`source/Settings.mc`)
 
-| Preset | Threshold | Refractory | Intended use |
-|--------|-----------|-----------|--------------|
-| High   | 2200 mG   | 90 ms     | light recoil (rimfire / .22) |
-| Medium | 3000 mG   | 110 ms    | typical centerfire pistol (9mm / .40) |
-| Low    | 4200 mG   | 130 ms    | heavy recoil only, fewest false positives |
+Rather than picking an abstract "sensitivity" preset, you describe your
+firearm and load and the app derives the detection threshold and refractory
+window from the **free-recoil energy** that shot produces — the same impulse
+the wrist accelerometer actually senses. You set three things in Settings:
 
-Tune these to your firearm and how the watch is worn. Strong-hand wrist mounting
-gives the cleanest recoil signal.
+- **Muzzle Velocity** (fps)
+- **Bullet Weight** (grains)
+- **Firearm Weight** (oz)
+
+From these, `Settings.getRecoilEnergy()` computes free-recoil energy
+(conservation of momentum: `E = (gunLb · gunVel²) / 64.348`, with
+`gunVel = bulletGr · velFps / (7000 · gunLb)`), and the threshold/refractory
+are interpolated along a curve anchored to the previously hand-tuned presets:
+
+| Recoil energy | Example load | Threshold | Refractory |
+|---------------|--------------|-----------|-----------|
+| ~0.4 ft·lbf   | .22 rimfire (40 gr @ 1200 fps) | 2200 mG | 90 ms |
+| ~3.4 ft·lbf   | 9mm pistol (124 gr @ 1150 fps) | 3000 mG | 110 ms |
+| ~11 ft·lbf+   | .44 Mag and up (240 gr @ 1300 fps) | 4200 mG | 130 ms |
+
+A bigger recoil impulse raises the threshold (cleaner spike → reject false
+positives) and lengthens the refractory window (longer oscillation tail). A
+small impulse lowers both so faint shots aren't missed and fast splits aren't
+merged. The Settings menu shows the resulting `mG / ms` live as you adjust the
+profile.
+
+> The powder-charge/gas term is omitted (not collected), so very hot
+> magnum/rifle loads are slightly understated — both threshold and refractory
+> clamp at the heavy-recoil end (4200 mG / 130 ms). Strong-hand wrist mounting
+> still gives the cleanest recoil signal.
 
 ---
 
@@ -52,11 +74,15 @@ gives the cleanest recoil signal.
 
 ## Settings
 
-- **Sensitivity** — Low / Medium / High (see table above)
+- **Course of Fire** — drill preset (Bill / Mozambique / 1-Reload-1 / El
+  Presidente / Unstructured)
 - **Start Delay** — Instant / Fixed 3 s / Random 2–4 s (random = standard
   "stand by … *beep*" par-timer behavior)
 - **Par Time** — on/off plus a configurable par in seconds; a distinct double
   beep fires at par so you can train to a time standard
+- **Muzzle Velocity / Bullet Weight / Firearm Weight** — your firearm + load
+  profile; these drive the recoil-derived detection tuning (see table above)
+- **Detection** — read-only readout of the resulting threshold / refractory
 
 Settings persist between sessions via the application object store
 (`Application.Storage`).
