@@ -36,11 +36,15 @@ class Settings {
     private const KEY_DELAY   as String = "delayMode";
     private const KEY_PAR_ON  as String = "parEnabled";
     private const KEY_PAR_SEC as String = "parSeconds";
+    private const KEY_FIT      as String = "recordFit";
 
     public var drill      as Drill     = DRILL_UNSTRUCTURED;
     public var delayMode  as DelayMode = DELAY_RANDOM;
     public var parEnabled as Boolean   = false;
     public var parSeconds as Float     = 3.0;
+    // Export each string as a Garmin Connect .FIT activity. On by default; the
+    // export is silently skipped on devices that can't record activities.
+    public var recordFit  as Boolean   = true;
 
     function initialize() {
     }
@@ -57,6 +61,8 @@ class Settings {
         if (v != null) { parEnabled = v as Boolean; }
         v = Storage.getValue(KEY_PAR_SEC);
         if (v != null) { parSeconds = v as Float; }
+        v = Storage.getValue(KEY_FIT);
+        if (v != null) { recordFit = v as Boolean; }
     }
 
     function save() as Void {
@@ -64,6 +70,7 @@ class Settings {
         Storage.setValue(KEY_DELAY,   delayMode);
         Storage.setValue(KEY_PAR_ON,  parEnabled);
         Storage.setValue(KEY_PAR_SEC, parSeconds);
+        Storage.setValue(KEY_FIT,     recordFit);
     }
 
     // ---- Drill metadata ----------------------------------------------------

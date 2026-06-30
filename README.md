@@ -57,9 +57,39 @@ gives the cleanest recoil signal.
   "stand by … *beep*" par-timer behavior)
 - **Par Time** — on/off plus a configurable par in seconds; a distinct double
   beep fires at par so you can train to a time standard
+- **Save to Garmin** — on/off; when on, each completed string is written as a
+  Garmin Connect activity for later review (see below). On by default.
 
 Settings persist between sessions via the application object store
 (`Application.Storage`).
+
+---
+
+## Garmin Connect (.FIT) export
+
+With **Save to Garmin** enabled, every completed string is recorded as a
+standard `.FIT` activity (`source/FitRecorder.mc`, using `ActivityRecording` +
+`FitContributor`). The file syncs to **Garmin Connect** the next time the watch
+syncs, so your strings live alongside your other activities and can be reviewed,
+graphed, and shared.
+
+What gets written:
+
+| FIT element | Carries |
+|-------------|---------|
+| **Activity / session** | named after the course of fire, with summary developer fields: `shots` (count), `first_shot` (s), `total_time` (s) |
+| **Lap** (one per shot) | developer fields `shot_time` (s, from the beep) and `split` (s, gap from the previous shot) |
+
+The per-shot **developer fields are the precise values** derived from the
+accelerometer sample timestamps. The laps' *native* start/stop times are only as
+good as when the batched sensor callback fires (batches arrive up to ~1 s late —
+see "Precision & limitations"), so for split analysis read the `split` /
+`shot_time` developer fields rather than Garmin Connect's wall-clock lap times.
+
+Strings with no detected shots, and strings you cancel, are discarded rather
+than saved. The export requires the **Fit** permission (declared in
+`manifest.xml`); on any device that can't record activities it is silently
+skipped and the timer works exactly as before.
 
 ---
 
@@ -125,6 +155,7 @@ ShootingTimer/
     ├── Settings.mc              # settings + detection tuning + persistence
     ├── ShotString.mc            # model: shot times, splits, totals
     ├── ShotDetector.mc          # accelerometer capture + peak detection
+    ├── FitRecorder.mc           # .FIT activity export (ActivityRecording/FitContributor)
     ├── ShotTimerView.mc         # state machine, rendering, tones
     ├── ShotTimerDelegate.mc     # input → view actions
     └── SettingsMenu.mc          # Menu2 settings UI

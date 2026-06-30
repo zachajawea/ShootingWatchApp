@@ -31,6 +31,7 @@ class ShotTimerView extends WatchUi.View {
     private var _settings as Settings;
     private var _detector as ShotDetector;
     private var _string as ShotString;
+    private var _recorder as FitRecorder;
 
     private var _state as TimerState = STATE_READY;
 
@@ -48,6 +49,7 @@ class ShotTimerView extends WatchUi.View {
         _settings = settings;
         _string = new ShotString();
         _detector = new ShotDetector(method(:onShotDetected));
+        _recorder = new FitRecorder();
     }
 
     // ---- View lifecycle ----------------------------------------------------
@@ -65,6 +67,9 @@ class ShotTimerView extends WatchUi.View {
         if (_detector.isRunning()) {
             _detector.stop();
         }
+        // Abnormal exit mid-string: drop any open recording so a half-captured
+        // activity isn't saved to Garmin Connect.
+        _recorder.discard();
     }
 
     // ---- Public actions (invoked by the delegate) --------------------------
@@ -153,6 +158,12 @@ class ShotTimerView extends WatchUi.View {
             _sensorError = true;
         }
 
+        // Start the FIT activity recording for this string (if enabled). The
+        // export is best-effort: a failure here never blocks the timer.
+        if (_settings.recordFit && FitRecorder.isSupported()) {
+            _recorder.start(drillLabel());
+        }
+
         _state = STATE_RUNNING;
         startUiTimer();
 
@@ -180,6 +191,14 @@ class ShotTimerView extends WatchUi.View {
             _detector.stop();
         }
         stopAllTimers();
+        // Persist the completed string as a Garmin Connect activity. A string
+        // with no detected shots is discarded rather than saved as empty.
+        if (_string.isEmpty()) {
+            _recorder.discard();
+        } else {
+            _recorder.finish(_string.count(), _string.firstShotMs(),
+                _string.totalMs());
+        }
         _state = STATE_REVIEW;
         _reviewScroll = 0;
         WatchUi.requestUpdate();
@@ -190,6 +209,7 @@ class ShotTimerView extends WatchUi.View {
             _detector.stop();
         }
         stopAllTimers();
+        _recorder.discard();
         _state = STATE_READY;
         WatchUi.requestUpdate();
     }
@@ -206,6 +226,10 @@ class ShotTimerView extends WatchUi.View {
             return;
         }
         _string.addShot(timeMs);
+        var split = _string.lastSplitMs();
+        if (split != null) {
+            _recorder.recordShot(timeMs, split);
+        }
         WatchUi.requestUpdate();
     }
 

@@ -31,6 +31,10 @@ class SettingsMenu extends WatchUi.Menu2 {
         addItem(new WatchUi.MenuItem(
             WatchUi.loadResource(Rez.Strings.ParSeconds) as String,
             parSecondsLabel(), :parSec, null));
+
+        addItem(new WatchUi.ToggleMenuItem(
+            WatchUi.loadResource(Rez.Strings.RecordFit) as String,
+            null, :fitOn, _settings.recordFit, null));
     }
 
     function getSettings() as Settings {
@@ -51,6 +55,10 @@ class SettingsMenu extends WatchUi.Menu2 {
 
     function setParEnabled(enabled as Boolean) as Void {
         _settings.parEnabled = enabled;
+    }
+
+    function setFitEnabled(enabled as Boolean) as Void {
+        _settings.recordFit = enabled;
     }
 
     function cycleParSeconds(item as WatchUi.MenuItem) as Void {
@@ -109,6 +117,8 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             _menu.setParEnabled((item as WatchUi.ToggleMenuItem).isEnabled());
         } else if (id == :parSec) {
             _menu.cycleParSeconds(item);
+        } else if (id == :fitOn) {
+            _menu.setFitEnabled((item as WatchUi.ToggleMenuItem).isEnabled());
         }
         WatchUi.requestUpdate();
     }
