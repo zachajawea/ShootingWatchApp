@@ -30,7 +30,7 @@ enum DelayMode {
 }
 
 // ---- Ballistic / firearm-profile bounds --------------------------------------
-// The on-watch digit editor clamps each variable to [min, max] on save.
+// The on-watch number picker clamps each variable to [min, max] on accept.
 // Ranges cover common pistol/rifle loads.
 
 const MUZZLE_MIN_FPS    as Number = 600;    // subsonic pistol floor

@@ -4,9 +4,9 @@
 // On-watch configuration via Menu2: course-of-fire drill, start-delay mode,
 // par on/off, par time, and the firearm/ammunition profile. Selecting most
 // items cycles/toggles the value in place; the numeric profile values
-// (muzzle velocity, bullet weight, firearm weight) open a full-screen digit
-// editor instead (see NumberEditor.mc). Settings are persisted when the menu
-// closes.
+// (muzzle velocity, bullet weight, firearm weight) open a multi-digit
+// WatchUi.Picker instead (see BallisticPicker.mc). Settings are persisted when
+// the menu closes.
 //
 import Toybox.Lang;
 import Toybox.WatchUi;
@@ -91,36 +91,43 @@ class SettingsMenu extends WatchUi.Menu2 {
         item.setSubLabel(parSecondsLabel());
     }
 
-    // ---- Ballistic profile: digit editors ----------------------------------
-    // Each of these values spans a wide range, so instead of cycling by a fixed
-    // step they open a full-screen NumberEditor. START cycles digits, UP/DOWN
-    // change the selected digit, BACK saves. On save the paired onXxxEdited
-    // callback stores the value and refreshes the labels.
+    // ---- Ballistic profile: number pickers ---------------------------------
+    // Each of these values spans a wide range, so selecting the item opens a
+    // multi-digit WatchUi.Picker (see BallisticPicker.mc). UP/DOWN change the
+    // focused digit, START advances to the next digit, and accepting the last
+    // digit applies the value via the paired onXxxEdited callback, which stores
+    // it and refreshes the labels.
 
     function openMuzzleEditor() as Void {
-        var editor = new NumberEditorView(
-            WatchUi.loadResource(Rez.Strings.MuzzleVelocity) as String,
-            "fps", _settings.muzzleVelocityFps,
-            MUZZLE_MIN_FPS, MUZZLE_MAX_FPS, method(:onMuzzleEdited));
-        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+        WatchUi.pushView(
+            new BallisticPicker(
+                WatchUi.loadResource(Rez.Strings.MuzzleVelocity) as String,
+                "fps", _settings.muzzleVelocityFps,
+                MUZZLE_MIN_FPS, MUZZLE_MAX_FPS),
+            new BallisticPickerDelegate(
+                MUZZLE_MIN_FPS, MUZZLE_MAX_FPS, method(:onMuzzleEdited)),
             WatchUi.SLIDE_UP);
     }
 
     function openBulletEditor() as Void {
-        var editor = new NumberEditorView(
-            WatchUi.loadResource(Rez.Strings.BulletWeight) as String,
-            "gr", _settings.bulletWeightGr,
-            BULLET_MIN_GR, BULLET_MAX_GR, method(:onBulletEdited));
-        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+        WatchUi.pushView(
+            new BallisticPicker(
+                WatchUi.loadResource(Rez.Strings.BulletWeight) as String,
+                "gr", _settings.bulletWeightGr,
+                BULLET_MIN_GR, BULLET_MAX_GR),
+            new BallisticPickerDelegate(
+                BULLET_MIN_GR, BULLET_MAX_GR, method(:onBulletEdited)),
             WatchUi.SLIDE_UP);
     }
 
     function openFirearmEditor() as Void {
-        var editor = new NumberEditorView(
-            WatchUi.loadResource(Rez.Strings.FirearmWeight) as String,
-            "oz", _settings.firearmWeightOz,
-            FIREARM_MIN_OZ, FIREARM_MAX_OZ, method(:onFirearmEdited));
-        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+        WatchUi.pushView(
+            new BallisticPicker(
+                WatchUi.loadResource(Rez.Strings.FirearmWeight) as String,
+                "oz", _settings.firearmWeightOz,
+                FIREARM_MIN_OZ, FIREARM_MAX_OZ),
+            new BallisticPickerDelegate(
+                FIREARM_MIN_OZ, FIREARM_MAX_OZ, method(:onFirearmEdited)),
             WatchUi.SLIDE_UP);
     }
 
