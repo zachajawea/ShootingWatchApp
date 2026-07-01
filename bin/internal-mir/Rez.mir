@@ -1,38 +1,38 @@
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
 using Toybox.Graphics;
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
 module Rez {
-    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
     module Drawables {
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [id_monkey,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [id_monkey,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
         var id_monkey as ResourceId;
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
         var LauncherIcon as ResourceId;
     }
-    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
     module Layouts {
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 13; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 13; ]
         <init> {
         }
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 14; @symbol_functiondef = [MainLayout,14,17,27]; @symbol_param<0> = [dc,14,28,30]; @symbol_param<0>_type<0> = [Graphics,14,34,42]; @symbol_param<0>_type<1> = [Dc,14,43,45]; @symbol_return<0> = [Array,14,50,55]; @symbol_return<1> = [WatchUi,14,56,63]; @symbol_return<2> = [Drawable,14,64,72]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 14; @symbol_functiondef = [MainLayout,14,17,27]; @symbol_param<0> = [dc,14,28,30]; @symbol_param<0>_type<0> = [Graphics,14,34,42]; @symbol_param<0>_type<1> = [Dc,14,43,45]; @symbol_return<0> = [Array,14,50,55]; @symbol_return<1> = [WatchUi,14,56,63]; @symbol_return<2> = [Drawable,14,64,72]; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_start:
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 15 12 ]
-            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_stop" ]
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_start:
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 15 12 ]
+            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_stop" ]
             %rez_cmp_local_var_dc_getWidth.1 = local;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 15 16 45 ];
             %tmp.1 = lgetv %dc;
@@ -42,8 +42,8 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.3;
             symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 15 16 45 ];
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 17 12 ]
-            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_stop" ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 17 12 ]
+            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_stop" ]
             %rez_cmp_local_text_1193959466.2 = local;
             symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 17 16 45 ];
             symbol [ WatchUi %tmp.6 17 52 59 ];
@@ -103,8 +103,8 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             %tmp.4 = newc %tmp.7 (%tmp.46);
             lputv %rez_cmp_local_text_1193959466.2 %tmp.4;
             symbol [ rez_cmp_local_text_1193959466 %rez_cmp_local_text_1193959466.2 17 16 45 ];
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 19 12 ]
-            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_stop" ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 19 12 ]
+            [ "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_start" "c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_stop" ]
             %rez_cmp_local_bitmap_id_monkey.3 = local;
             symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.3 19 16 46 ];
             symbol [ WatchUi %tmp.49 19 53 60 ];
@@ -145,7 +145,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             %tmp.47 = newc %tmp.50 (%tmp.75);
             lputv %rez_cmp_local_bitmap_id_monkey.3 %tmp.47;
             symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.3 19 16 46 ];
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 20 12 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 20 12 ]
             %tmp.76 = lgetv %rez_cmp_local_bitmap_id_monkey.3;
             symbol [ rez_cmp_local_bitmap_id_monkey %tmp.76 20 12 42 ];
             symbol [ setLocation %tmp.77 20 43 54 ];
@@ -164,7 +164,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             symbol [ locY %tmp.85 20 166 170 ];
             %tmp.85 = getv %tmp.84 :locY;
             invoke %tmp.76 %tmp.77(%tmp.83, %tmp.85);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 22 12 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 22 12 ]
             %tmp.86 = newa 2 Array<WatchUi.Drawable>;
             symbol [ Array %tmp.86 22 86 91 ];
             symbol [ WatchUi %tmp.86 22 92 99 ];
@@ -178,34 +178,34 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             %tmp.91 = dup %tmp.89;
             %tmp.92 = aputv %tmp.91 1 %tmp.90;
             ret %tmp.92;
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_14_74_23_8_stop:
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_14_74_23_8_stop:
         }
     }
-    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 26; @symbol_moduledef = [Menus,26,11,16]; ]
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 26; @symbol_moduledef = [Menus,26,11,16]; ]
     module Menus {
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 26; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 26; ]
         <init> {
         }
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 27; @symbol_classdef = [MainMenu,27,14,22]; @symbol_extends<0> = [WatchUi,27,31,38]; @symbol_extends<1> = [Menu2,27,39,44]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 27; @symbol_classdef = [MainMenu,27,14,22]; @symbol_extends<0> = [WatchUi,27,31,38]; @symbol_extends<1> = [Menu2,27,39,44]; ]
         class MainMenu extends WatchUi.Menu2 {
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 27; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 27; ]
             <init> {
             }
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 27; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 27; ]
             static
             <init> {
             }
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 28; @symbol_functiondef = [initialize,28,21,31]; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 28; @symbol_functiondef = [initialize,28,21,31]; ]
             function initialize() as Void {
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_28_34_31_12_start:
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 29 16 ]
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_28_34_31_12_start:
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 29 16 ]
                 symbol [ Menu2 %tmp.2 29 16 21 ];
                 %tmp.2 = getv ? :Menu2;
                 symbol [ initialize %tmp.3 29 22 32 ];
                 %tmp.3 = getv function %tmp.2 :initialize;
                 %tmp.4 = null;
                 invoke %tmp.2 %tmp.3(%tmp.4);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 30 16 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 30 16 ]
                 %tmp.5 = self;
                 symbol [ addItem %tmp.6 30 16 23 ];
                 %tmp.6 = getv function %tmp.5 :addItem;
@@ -227,29 +227,29 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.18 = null;
                 %tmp.7 = newc %tmp.10 (%tmp.14, %tmp.15, %tmp.17, %tmp.18);
                 invoke %tmp.5 %tmp.6(%tmp.7);
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_28_34_31_12_stop:
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_28_34_31_12_stop:
             }
         }
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 34; @symbol_classdef = [SettingsMenu,34,14,26]; @symbol_extends<0> = [WatchUi,34,35,42]; @symbol_extends<1> = [Menu2,34,43,48]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 34; @symbol_classdef = [SettingsMenu,34,14,26]; @symbol_extends<0> = [WatchUi,34,35,42]; @symbol_extends<1> = [Menu2,34,43,48]; ]
         class SettingsMenu extends WatchUi.Menu2 {
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 34; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 34; ]
             <init> {
             }
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 34; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 34; ]
             static
             <init> {
             }
-            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 35; @symbol_functiondef = [initialize,35,21,31]; ]
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 35; @symbol_functiondef = [initialize,35,21,31]; ]
             function initialize() as Void {
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_35_34_41_12_start:
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 36 16 ]
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_35_34_41_12_start:
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 36 16 ]
                 symbol [ Menu2 %tmp.2 36 16 21 ];
                 %tmp.2 = getv ? :Menu2;
                 symbol [ initialize %tmp.3 36 22 32 ];
                 %tmp.3 = getv function %tmp.2 :initialize;
                 %tmp.4 = null;
                 invoke %tmp.2 %tmp.3(%tmp.4);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 37 16 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 37 16 ]
                 %tmp.5 = self;
                 symbol [ addItem %tmp.6 37 16 23 ];
                 %tmp.6 = getv function %tmp.5 :addItem;
@@ -271,7 +271,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.18 = null;
                 %tmp.7 = newc %tmp.10 (%tmp.14, %tmp.15, %tmp.17, %tmp.18);
                 invoke %tmp.5 %tmp.6(%tmp.7);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 38 16 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 38 16 ]
                 %tmp.19 = self;
                 symbol [ addItem %tmp.20 38 16 23 ];
                 %tmp.20 = getv function %tmp.19 :addItem;
@@ -293,7 +293,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.32 = null;
                 %tmp.21 = newc %tmp.24 (%tmp.28, %tmp.29, %tmp.31, %tmp.32);
                 invoke %tmp.19 %tmp.20(%tmp.21);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 39 16 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 39 16 ]
                 %tmp.33 = self;
                 symbol [ addItem %tmp.34 39 16 23 ];
                 %tmp.34 = getv function %tmp.33 :addItem;
@@ -315,7 +315,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.46 = null;
                 %tmp.35 = newc %tmp.38 (%tmp.42, %tmp.43, %tmp.45, %tmp.46);
                 invoke %tmp.33 %tmp.34(%tmp.35);
-[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 40 16 ]
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 40 16 ]
                 %tmp.47 = self;
                 symbol [ addItem %tmp.48 40 16 23 ];
                 %tmp.48 = getv function %tmp.47 :addItem;
@@ -337,19 +337,20 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.60 = null;
                 %tmp.49 = newc %tmp.52 (%tmp.56, %tmp.57, %tmp.59, %tmp.60);
                 invoke %tmp.47 %tmp.48(%tmp.49);
-c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00_source_Rez_mcgen_35_34_41_12_stop:
+c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3943_00_source_Rez_mcgen_35_34_41_12_stop:
             }
         }
     }
-    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 45; @symbol_moduledef = [Strings,45,11,18]; ]
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 45; @symbol_moduledef = [Strings,45,11,18]; ]
     module Strings {
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 45; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 45; ]
         <init> {
         }
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [Par,46,27,30]; @symbol_type<0> = [ResourceId,46,34,44]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [Par,46,27,30]; @symbol_type<0> = [ResourceId,46,34,44]; ]
         var Par as ResourceId;
-        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [NoShots,47,27,34]; @symbol_type<0> = [ResourceId,47,38,48]; ]
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [NoShots,47,27,34]; @symbol_type<0> = [ResourceId,47,38,48]; ]
         var NoShots as ResourceId;
+<<<<<<< Updated upstream
         [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [RecordFit,48,27,36]; @symbol_type<0> = [ResourceId,48,40,50]; ]
         var RecordFit as ResourceId;
         [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [Off,49,27,30]; @symbol_type<0> = [ResourceId,49,34,44]; ]
@@ -487,6 +488,145 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 114; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 115 18 ]
+=======
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [RecordFit,48,27,36]; @symbol_type<0> = [ResourceId,48,40,50]; ]
+        var RecordFit as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [Off,49,27,30]; @symbol_type<0> = [ResourceId,49,34,44]; ]
+        var Off as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [AppName,50,27,34]; @symbol_type<0> = [ResourceId,50,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [DelayFixed,51,27,37]; @symbol_type<0> = [ResourceId,51,41,51]; ]
+        var DelayFixed as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [CourseFire,52,27,37]; @symbol_type<0> = [ResourceId,52,41,51]; ]
+        var CourseFire as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 53; @position = 27; initialized = true; @symbol_vardef = [DelayInstant,53,27,39]; @symbol_type<0> = [ResourceId,53,43,53]; ]
+        var DelayInstant as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [Shots,54,27,32]; @symbol_type<0> = [ResourceId,54,36,46]; ]
+        var Shots as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [PressStartHint,55,27,41]; @symbol_type<0> = [ResourceId,55,45,55]; ]
+        var PressStartHint as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [DrillBill,56,27,36]; @symbol_type<0> = [ResourceId,56,40,50]; ]
+        var DrillBill as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [Settings,57,27,35]; @symbol_type<0> = [ResourceId,57,39,49]; ]
+        var Settings as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [DrillElPrez,58,27,38]; @symbol_type<0> = [ResourceId,58,42,52]; ]
+        var DrillElPrez as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [StartDelay,59,27,37]; @symbol_type<0> = [ResourceId,59,41,51]; ]
+        var StartDelay as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [Standby,60,27,34]; @symbol_type<0> = [ResourceId,60,38,48]; ]
+        var Standby as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [DrillMozambique,61,27,42]; @symbol_type<0> = [ResourceId,61,46,56]; ]
+        var DrillMozambique as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 62; @position = 27; initialized = true; @symbol_vardef = [DrillOneReloadOne,62,27,44]; @symbol_type<0> = [ResourceId,62,48,58]; ]
+        var DrillOneReloadOne as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 63; @position = 27; initialized = true; @symbol_vardef = [ParEnabled,63,27,37]; @symbol_type<0> = [ResourceId,63,41,51]; ]
+        var ParEnabled as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 64; @position = 27; initialized = true; @symbol_vardef = [Ready,64,27,32]; @symbol_type<0> = [ResourceId,64,36,46]; ]
+        var Ready as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 65; @position = 27; initialized = true; @symbol_vardef = [ParSeconds,65,27,37]; @symbol_type<0> = [ResourceId,65,41,51]; ]
+        var ParSeconds as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [FirstShot,66,27,36]; @symbol_type<0> = [ResourceId,66,40,50]; ]
+        var FirstShot as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [DelayRandom,67,27,38]; @symbol_type<0> = [ResourceId,67,42,52]; ]
+        var DelayRandom as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [DrillUnstructured,68,27,44]; @symbol_type<0> = [ResourceId,68,48,58]; ]
+        var DrillUnstructured as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [Total,69,27,32]; @symbol_type<0> = [ResourceId,69,36,46]; ]
+        var Total as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [Split,70,27,32]; @symbol_type<0> = [ResourceId,70,36,46]; ]
+        var Split as ResourceId;
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [On,71,27,29]; @symbol_type<0> = [ResourceId,71,33,43]; ]
+        var On as ResourceId;
+    }
+    [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 74; @symbol_moduledef = [Styles,74,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 74; ]
+        <init> {
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 75; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,75,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 75; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [exclude,76,18,25]; @symbol_type<0> = [Boolean,76,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 79; @symbol_moduledef = [system_size__menu_header,79,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 79; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [width,80,18,23]; @symbol_type<0> = [Number,80,27,33]; ]
+            const width as Number = 416;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [height,81,18,24]; @symbol_type<0> = [Number,81,28,34]; ]
+            const height as Number = 130;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 84; @symbol_moduledef = [system_loc__hint_button_left_bottom,84,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [x,85,18,19]; @symbol_type<0> = [Number,85,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [y,86,18,19]; @symbol_type<0> = [Number,86,23,29]; ]
+            const y as Number = 275;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,89,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 89; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [exclude,90,18,25]; @symbol_type<0> = [Boolean,90,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 93; @symbol_moduledef = [prompt_loc__body_no_title,93,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [x,94,18,19]; @symbol_type<0> = [Number,94,23,29]; ]
+            const x as Number = 42;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [y,95,18,19]; @symbol_type<0> = [Number,95,23,29]; ]
+            const y as Number = 42;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 98; @symbol_moduledef = [system_icon_dark__about,98,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [filename,99,18,26]; @symbol_type<0> = [String,99,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [compress,100,18,26]; @symbol_type<0> = [String,100,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [dithering,101,18,27]; @symbol_type<0> = [String,101,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [automaticPalette,102,18,34]; @symbol_type<0> = [String,102,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 105; @symbol_moduledef = [system_icon_light__question,105,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [filename,106,18,26]; @symbol_type<0> = [String,106,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__question.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [dithering,107,18,27]; @symbol_type<0> = [String,107,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 110; @symbol_moduledef = [system_loc__hint_button_left_top,110,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [exclude,111,18,25]; @symbol_type<0> = [Boolean,111,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 114; @symbol_moduledef = [prompt_font__title,114,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 114; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 115 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.61 115 34 42 ];
                 %tmp.61 = getm $.Toybox.Graphics;
                 symbol [ TEXT_JUSTIFY_CENTER %tmp.62 115 43 62 ];
@@ -497,13 +637,18 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.64 = getv %tmp.63 :TEXT_JUSTIFY_VCENTER;
                 %tmp.65 = bitor %tmp.62 %tmp.64;
                 putv self :justification %tmp.65;
+<<<<<<< Updated upstream
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 116 18 ]
+=======
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 116 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.66 116 25 33 ];
                 %tmp.66 = getm $.Toybox.Graphics;
                 symbol [ FONT_XTINY %tmp.67 116 34 44 ];
                 %tmp.67 = getv %tmp.66 :FONT_XTINY;
                 putv self :font %tmp.67;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [justification,115,18,31]; ]
             const justification;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [font,116,18,22]; ]
@@ -538,12 +683,49 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 131; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 133 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [justification,115,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [font,116,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 119; @symbol_moduledef = [system_icon_dark__discard,119,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 119; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [filename,120,18,26]; @symbol_type<0> = [String,120,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [compress,121,18,26]; @symbol_type<0> = [String,121,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [dithering,122,18,27]; @symbol_type<0> = [String,122,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [automaticPalette,123,18,34]; @symbol_type<0> = [String,123,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [system_size__menu_item,126,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [width,127,18,23]; @symbol_type<0> = [Number,127,27,33]; ]
+            const width as Number = 416;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [height,128,18,24]; @symbol_type<0> = [Number,128,28,34]; ]
+            const height as Number = 109;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 131; @symbol_moduledef = [system_color_dark__text,131,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 133 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.68 133 31 39 ];
                 %tmp.68 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.69 133 40 57 ];
                 %tmp.69 = getv %tmp.68 :COLOR_TRANSPARENT;
                 putv self :background %tmp.69;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [color,132,18,23]; @symbol_type<0> = [Number,132,27,33]; ]
             const color as Number = 0xFFFFFF;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [background,133,18,28]; ]
@@ -584,6 +766,48 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 151; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 152 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [color,132,18,23]; @symbol_type<0> = [Number,132,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [background,133,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 136; @symbol_moduledef = [system_icon_destructive__discard,136,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [filename,137,18,26]; @symbol_type<0> = [String,137,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [dithering,138,18,27]; @symbol_type<0> = [String,138,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_icon_dark__hint_action_menu,141,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [filename,142,18,26]; @symbol_type<0> = [String,142,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [dithering,143,18,27]; @symbol_type<0> = [String,143,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 146; @symbol_moduledef = [prompt_size__title,146,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [width,147,18,23]; @symbol_type<0> = [Number,147,27,33]; ]
+            const width as Number = 333;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [height,148,18,24]; @symbol_type<0> = [Number,148,28,34]; ]
+            const height as Number = 63;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [confirmation_font__body,151,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 152 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.70 152 34 42 ];
                 %tmp.70 = getm $.Toybox.Graphics;
                 symbol [ TEXT_JUSTIFY_CENTER %tmp.71 152 43 62 ];
@@ -594,13 +818,18 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_VCENTER;
                 %tmp.74 = bitor %tmp.71 %tmp.73;
                 putv self :justification %tmp.74;
+<<<<<<< Updated upstream
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 153 18 ]
+=======
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 153 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.75 153 25 33 ];
                 %tmp.75 = getm $.Toybox.Graphics;
                 symbol [ FONT_TINY %tmp.76 153 34 43 ];
                 %tmp.76 = getv %tmp.75 :FONT_TINY;
                 putv self :font %tmp.76;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [justification,152,18,31]; ]
             const justification;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [font,153,18,22]; ]
@@ -643,12 +872,57 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 172; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 173 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [justification,152,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [font,153,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [system_color_dark__background,156,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [color,157,18,23]; @symbol_type<0> = [Number,157,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [background,158,18,28]; @symbol_type<0> = [Number,158,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,161,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [filename,162,18,26]; @symbol_type<0> = [String,162,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [dithering,163,18,27]; @symbol_type<0> = [String,163,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [system_size__launch_icon,166,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [scaleX,167,18,24]; @symbol_type<0> = [Number,167,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [scaleY,168,18,24]; @symbol_type<0> = [Number,168,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [scaleRelativeTo,169,18,33]; @symbol_type<0> = [String,169,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 172; @symbol_moduledef = [confirmation_input__confirm,172,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 173 18 ]
+>>>>>>> Stashed changes
                 symbol [ WatchUi %tmp.77 173 27 34 ];
                 %tmp.77 = getm $.Toybox.WatchUi;
                 symbol [ KEY_ENTER %tmp.78 173 35 44 ];
                 %tmp.78 = getv %tmp.77 :KEY_ENTER;
                 putv self :button %tmp.78;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [button,173,18,24]; ]
             const button;
         }
@@ -657,18 +931,33 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 176; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 177 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [button,173,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [prompt_font__body_with_title,176,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 177 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.79 177 34 42 ];
                 %tmp.79 = getm $.Toybox.Graphics;
                 symbol [ TEXT_JUSTIFY_CENTER %tmp.80 177 43 62 ];
                 %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
                 putv self :justification %tmp.80;
+<<<<<<< Updated upstream
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 178 18 ]
+=======
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 178 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.81 178 25 33 ];
                 %tmp.81 = getm $.Toybox.Graphics;
                 symbol [ FONT_TINY %tmp.82 178 34 43 ];
                 %tmp.82 = getv %tmp.81 :FONT_TINY;
                 putv self :font %tmp.82;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [justification,177,18,31]; ]
             const justification;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [font,178,18,22]; ]
@@ -779,12 +1068,125 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 231; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 232 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [justification,177,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [font,178,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [confirmation_loc__body,181,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [x,182,18,19]; @symbol_type<0> = [Number,182,23,29]; ]
+            const x as Number = 83;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [y,183,18,19]; @symbol_type<0> = [Number,183,23,29]; ]
+            const y as Number = 83;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 186; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,186,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [filename,187,18,26]; @symbol_type<0> = [String,187,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [dithering,188,18,27]; @symbol_type<0> = [String,188,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [prompt_color_dark__background,191,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [color,192,18,23]; @symbol_type<0> = [Number,192,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [background,193,18,28]; @symbol_type<0> = [Number,193,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [system_icon_destructive__hint_action_menu,196,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [filename,197,18,26]; @symbol_type<0> = [String,197,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [dithering,198,18,27]; @symbol_type<0> = [String,198,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 201; @symbol_moduledef = [system_loc__hint_action_menu,201,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [x,202,18,19]; @symbol_type<0> = [Number,202,23,29]; ]
+            const x as Number = 360;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [y,203,18,19]; @symbol_type<0> = [Number,203,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 206; @symbol_moduledef = [confirmation_icon__hint_confirm,206,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [filename,207,18,26]; @symbol_type<0> = [String,207,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [dithering,208,18,27]; @symbol_type<0> = [String,208,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 211; @symbol_moduledef = [system_loc__hint_button_left_middle,211,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [x,212,18,19]; @symbol_type<0> = [Number,212,23,29]; ]
+            const x as Number = 4;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 213; @position = 18; @symbol_constdef = [y,213,18,19]; @symbol_type<0> = [Number,213,23,29]; ]
+            const y as Number = 173;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 216; @symbol_moduledef = [prompt_size__body_no_title,216,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [width,217,18,23]; @symbol_type<0> = [Number,217,27,33]; ]
+            const width as Number = 333;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [height,218,18,24]; @symbol_type<0> = [Number,218,28,34]; ]
+            const height as Number = 333;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 221; @symbol_moduledef = [system_icon_light__hint_button_left_top,221,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [filename,222,18,26]; @symbol_type<0> = [String,222,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [dithering,223,18,27]; @symbol_type<0> = [String,223,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 226; @symbol_moduledef = [prompt_color_light__background,226,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [color,227,18,23]; @symbol_type<0> = [Number,227,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [background,228,18,28]; @symbol_type<0> = [Number,228,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 231; @symbol_moduledef = [confirmation_input__delete,231,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 232 18 ]
+>>>>>>> Stashed changes
                 symbol [ WatchUi %tmp.83 232 27 34 ];
                 %tmp.83 = getm $.Toybox.WatchUi;
                 symbol [ KEY_ENTER %tmp.84 232 35 44 ];
                 %tmp.84 = getv %tmp.83 :KEY_ENTER;
                 putv self :button %tmp.84;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [button,232,18,24]; ]
             const button;
         }
@@ -803,12 +1205,33 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 240; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 241 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [button,232,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 235; @symbol_moduledef = [system_icon_dark__hint_button_left_top,235,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [filename,236,18,26]; @symbol_type<0> = [String,236,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [dithering,237,18,27]; @symbol_type<0> = [String,237,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 240; @symbol_moduledef = [system_input__action_menu,240,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 240; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 241 18 ]
+>>>>>>> Stashed changes
                 symbol [ WatchUi %tmp.85 241 27 34 ];
                 %tmp.85 = getm $.Toybox.WatchUi;
                 symbol [ KEY_ENTER %tmp.86 241 35 44 ];
                 %tmp.86 = getv %tmp.85 :KEY_ENTER;
                 putv self :button %tmp.86;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [button,241,18,24]; ]
             const button;
         }
@@ -827,12 +1250,33 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 249; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 251 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [button,241,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 244; @symbol_moduledef = [system_icon_light__save,244,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [filename,245,18,26]; @symbol_type<0> = [String,245,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__save.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [dithering,246,18,27]; @symbol_type<0> = [String,246,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 249; @symbol_moduledef = [prompt_color_light__body,249,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 251 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.87 251 31 39 ];
                 %tmp.87 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.88 251 40 57 ];
                 %tmp.88 = getv %tmp.87 :COLOR_TRANSPARENT;
                 putv self :background %tmp.88;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
             const color as Number = 0x000000;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
@@ -861,12 +1305,43 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 263; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 265 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 254; @symbol_moduledef = [system_loc__subwindow,254,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [exclude,255,18,25]; @symbol_type<0> = [Boolean,255,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [system_icon_light__warning,258,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [filename,259,18,26]; @symbol_type<0> = [String,259,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [dithering,260,18,27]; @symbol_type<0> = [String,260,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [confirmation_color_light__body,263,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 265 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.89 265 31 39 ];
                 %tmp.89 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.90 265 40 57 ];
                 %tmp.90 = getv %tmp.89 :COLOR_TRANSPARENT;
                 putv self :background %tmp.90;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [color,264,18,23]; @symbol_type<0> = [Number,264,27,33]; ]
             const color as Number = 0x000000;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [background,265,18,28]; ]
@@ -957,12 +1432,105 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 308; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 310 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [color,264,18,23]; @symbol_type<0> = [Number,264,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [background,265,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [confirmation_icon_light__hint_keep,268,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [filename,269,18,26]; @symbol_type<0> = [String,269,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [dithering,270,18,27]; @symbol_type<0> = [String,270,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [activity_color_light__background,273,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [color,274,18,23]; @symbol_type<0> = [Number,274,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [background,275,18,28]; @symbol_type<0> = [Number,275,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [system_icon_positive__hint_button_right_top,278,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [filename,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [dithering,280,18,27]; @symbol_type<0> = [String,280,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [system_size__screen,283,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [width,284,18,23]; @symbol_type<0> = [Number,284,27,33]; ]
+            const width as Number = 416;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [height,285,18,24]; @symbol_type<0> = [Number,285,28,34]; ]
+            const height as Number = 416;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,288,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [filename,289,18,26]; @symbol_type<0> = [String,289,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [dithering,290,18,27]; @symbol_type<0> = [String,290,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [system_color_light__background,293,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [color,294,18,23]; @symbol_type<0> = [Number,294,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [background,295,18,28]; @symbol_type<0> = [Number,295,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 298; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,298,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [filename,299,18,26]; @symbol_type<0> = [String,299,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [dithering,300,18,27]; @symbol_type<0> = [String,300,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 303; @symbol_moduledef = [confirmation_loc__hint_confirm,303,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [x,304,18,19]; @symbol_type<0> = [Number,304,23,29]; ]
+            const x as Number = 338;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [y,305,18,19]; @symbol_type<0> = [Number,305,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [activity_color_dark__text,308,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 310 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.91 310 31 39 ];
                 %tmp.91 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.92 310 40 57 ];
                 %tmp.92 = getv %tmp.91 :COLOR_TRANSPARENT;
                 putv self :background %tmp.92;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [color,309,18,23]; @symbol_type<0> = [Number,309,27,33]; ]
             const color as Number = 0xFFFFFF;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [background,310,18,28]; ]
@@ -973,12 +1541,25 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 313; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 314 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [color,309,18,23]; @symbol_type<0> = [Number,309,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [background,310,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 313; @symbol_moduledef = [confirmation_input__keep,313,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 314 18 ]
+>>>>>>> Stashed changes
                 symbol [ WatchUi %tmp.93 314 27 34 ];
                 %tmp.93 = getm $.Toybox.WatchUi;
                 symbol [ KEY_DOWN %tmp.94 314 35 43 ];
                 %tmp.94 = getv %tmp.93 :KEY_DOWN;
                 putv self :button %tmp.94;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [button,314,18,24]; ]
             const button;
         }
@@ -1011,12 +1592,47 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 329; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 331 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [button,314,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 317; @symbol_moduledef = [prompt_loc__body_with_title,317,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [x,318,18,19]; @symbol_type<0> = [Number,318,23,29]; ]
+            const x as Number = 42;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [y,319,18,19]; @symbol_type<0> = [Number,319,23,29]; ]
+            const y as Number = 125;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 322; @symbol_moduledef = [system_icon_dark__search,322,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [filename,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [compress,324,18,26]; @symbol_type<0> = [String,324,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [dithering,325,18,27]; @symbol_type<0> = [String,325,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [automaticPalette,326,18,34]; @symbol_type<0> = [String,326,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 329; @symbol_moduledef = [activity_color_light__text,329,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 329; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 331 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.95 331 31 39 ];
                 %tmp.95 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.96 331 40 57 ];
                 %tmp.96 = getv %tmp.95 :COLOR_TRANSPARENT;
                 putv self :background %tmp.96;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [color,330,18,23]; @symbol_type<0> = [Number,330,27,33]; ]
             const color as Number = 0x000000;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [background,331,18,28]; ]
@@ -1111,12 +1727,109 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 376; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 378 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [color,330,18,23]; @symbol_type<0> = [Number,330,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [background,331,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 334; @symbol_moduledef = [confirmation_icon__hint_keep,334,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 334; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [filename,335,18,26]; @symbol_type<0> = [String,335,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [dithering,336,18,27]; @symbol_type<0> = [String,336,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 339; @symbol_moduledef = [system_icon_dark__save,339,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 339; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [filename,340,18,26]; @symbol_type<0> = [String,340,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [compress,341,18,26]; @symbol_type<0> = [String,341,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [dithering,342,18,27]; @symbol_type<0> = [String,342,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [automaticPalette,343,18,34]; @symbol_type<0> = [String,343,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,346,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [filename,347,18,26]; @symbol_type<0> = [String,347,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [dithering,348,18,27]; @symbol_type<0> = [String,348,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [system_icon_light__search,351,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__search.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 356; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,356,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [filename,357,18,26]; @symbol_type<0> = [String,357,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [dithering,358,18,27]; @symbol_type<0> = [String,358,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 361; @symbol_moduledef = [system_icon_positive__hint_button_left_top,361,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [filename,362,18,26]; @symbol_type<0> = [String,362,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 366; @symbol_moduledef = [system_loc__hint_button_right_bottom,366,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [x,367,18,19]; @symbol_type<0> = [Number,367,23,29]; ]
+            const x as Number = 360;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [y,368,18,19]; @symbol_type<0> = [Number,368,23,29]; ]
+            const y as Number = 275;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [confirmation_icon_dark__hint_reject,371,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [confirmation_color_dark__body,376,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 378 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.97 378 31 39 ];
                 %tmp.97 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.98 378 40 57 ];
                 %tmp.98 = getv %tmp.97 :COLOR_TRANSPARENT;
                 putv self :background %tmp.98;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [color,377,18,23]; @symbol_type<0> = [Number,377,27,33]; ]
             const color as Number = 0xFFFFFF;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [background,378,18,28]; ]
@@ -1137,12 +1850,35 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 386; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 388 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [color,377,18,23]; @symbol_type<0> = [Number,377,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [background,378,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 381; @symbol_moduledef = [confirmation_icon_light__hint_confirm,381,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [filename,382,18,26]; @symbol_type<0> = [String,382,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [dithering,383,18,27]; @symbol_type<0> = [String,383,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [prompt_color_dark__title,386,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 388 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.99 388 31 39 ];
                 %tmp.99 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.100 388 40 57 ];
                 %tmp.100 = getv %tmp.99 :COLOR_TRANSPARENT;
                 putv self :background %tmp.100;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [color,387,18,23]; @symbol_type<0> = [Number,387,27,33]; ]
             const color as Number = 0xFFFFFF;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [background,388,18,28]; ]
@@ -1191,12 +1927,63 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 410; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 412 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [color,387,18,23]; @symbol_type<0> = [Number,387,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [background,388,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 391; @symbol_moduledef = [system_icon_destructive__cancel,391,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [filename,392,18,26]; @symbol_type<0> = [String,392,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [dithering,393,18,27]; @symbol_type<0> = [String,393,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 396; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,396,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [filename,397,18,26]; @symbol_type<0> = [String,397,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [dithering,398,18,27]; @symbol_type<0> = [String,398,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 401; @symbol_moduledef = [prompt_loc__title,401,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [x,402,18,19]; @symbol_type<0> = [Number,402,23,29]; ]
+            const x as Number = 42;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [y,403,18,19]; @symbol_type<0> = [Number,403,23,29]; ]
+            const y as Number = 30;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 406; @symbol_moduledef = [confirmation_font_enhanced_readability__body,406,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [exclude,407,18,25]; @symbol_type<0> = [Boolean,407,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [prompt_color_light__title,410,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 412 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.101 412 31 39 ];
                 %tmp.101 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.102 412 40 57 ];
                 %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
                 putv self :background %tmp.102;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [color,411,18,23]; @symbol_type<0> = [Number,411,27,33]; ]
             const color as Number = 0x000000;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [background,412,18,28]; ]
@@ -1439,12 +2226,257 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 531; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 533 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [color,411,18,23]; @symbol_type<0> = [Number,411,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [background,412,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_dark__hint_button_right_top,415,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,420,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [confirmation_icon_dark__hint_keep,425,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [filename,426,18,26]; @symbol_type<0> = [String,426,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [dithering,427,18,27]; @symbol_type<0> = [String,427,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_light__cancel,430,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [dithering,432,18,27]; @symbol_type<0> = [String,432,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [confirmation_icon_light__hint_reject,435,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 440; @symbol_moduledef = [system_icon_light__about,440,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__about.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 445; @symbol_moduledef = [system_size__toast_icon,445,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [scaleX,446,18,24]; @symbol_type<0> = [Number,446,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [scaleY,447,18,24]; @symbol_type<0> = [Number,447,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [scaleRelativeTo,448,18,33]; @symbol_type<0> = [String,448,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 451; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,451,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [exclude,452,18,25]; @symbol_type<0> = [Boolean,452,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 455; @symbol_moduledef = [confirmation_icon__hint_reject,455,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [filename,456,18,26]; @symbol_type<0> = [String,456,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [dithering,457,18,27]; @symbol_type<0> = [String,457,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_light__hint_action_menu,460,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [dithering,462,18,27]; @symbol_type<0> = [String,462,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 465; @symbol_moduledef = [system_icon_light__hint_button_right_middle,465,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [exclude,466,18,25]; @symbol_type<0> = [Boolean,466,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,469,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [exclude,470,18,25]; @symbol_type<0> = [Boolean,470,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 473; @symbol_moduledef = [confirmation_loc__hint_reject,473,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 473; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [x,474,18,19]; @symbol_type<0> = [Number,474,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [y,475,18,19]; @symbol_type<0> = [Number,475,23,29]; ]
+            const y as Number = 275;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [horizontalJustification,476,18,41]; @symbol_type<0> = [String,476,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 479; @symbol_moduledef = [confirmation_icon_dark__hint_delete,479,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [filename,480,18,26]; @symbol_type<0> = [String,480,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [dithering,481,18,27]; @symbol_type<0> = [String,481,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 484; @symbol_moduledef = [activity_color_dark__background,484,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [color,485,18,23]; @symbol_type<0> = [Number,485,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [background,486,18,28]; @symbol_type<0> = [Number,486,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 489; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,489,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [filename,490,18,26]; @symbol_type<0> = [String,490,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [dithering,491,18,27]; @symbol_type<0> = [String,491,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,494,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [filename,495,18,26]; @symbol_type<0> = [String,495,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [dithering,496,18,27]; @symbol_type<0> = [String,496,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 499; @symbol_moduledef = [system_size__menu_icon,499,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [scaleX,500,18,24]; @symbol_type<0> = [Number,500,28,34]; ]
+            const scaleX as Number = 60;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [scaleY,501,18,24]; @symbol_type<0> = [Number,501,28,34]; ]
+            const scaleY as Number = 60;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [scaleRelativeTo,502,18,33]; @symbol_type<0> = [String,502,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 505; @symbol_moduledef = [system_icon_destructive__warning,505,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [filename,506,18,26]; @symbol_type<0> = [String,506,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [dithering,507,18,27]; @symbol_type<0> = [String,507,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 510; @symbol_moduledef = [system_loc__hint_button_right_middle,510,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [exclude,511,18,25]; @symbol_type<0> = [Boolean,511,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 514; @symbol_moduledef = [system_icon_dark__cancel,514,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [filename,515,18,26]; @symbol_type<0> = [String,515,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [compress,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [dithering,517,18,27]; @symbol_type<0> = [String,517,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [automaticPalette,518,18,34]; @symbol_type<0> = [String,518,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 521; @symbol_moduledef = [prompt_size__body_with_title,521,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [width,522,18,23]; @symbol_type<0> = [Number,522,27,33]; ]
+            const width as Number = 333;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [height,523,18,24]; @symbol_type<0> = [Number,523,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 526; @symbol_moduledef = [system_loc__hint_button_right_top,526,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 526; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [x,527,18,19]; @symbol_type<0> = [Number,527,23,29]; ]
+            const x as Number = 360;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [y,528,18,19]; @symbol_type<0> = [Number,528,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 531; @symbol_moduledef = [system_color_light__text,531,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 531; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 533 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.103 533 31 39 ];
                 %tmp.103 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.104 533 40 57 ];
                 %tmp.104 = getv %tmp.103 :COLOR_TRANSPARENT;
                 putv self :background %tmp.104;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [color,532,18,23]; @symbol_type<0> = [Number,532,27,33]; ]
             const color as Number = 0x000000;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [background,533,18,28]; ]
@@ -1465,12 +2497,35 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 541; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 542 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [color,532,18,23]; @symbol_type<0> = [Number,532,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [background,533,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 536; @symbol_moduledef = [system_icon_light__check,536,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [filename,537,18,26]; @symbol_type<0> = [String,537,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__check.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [dithering,538,18,27]; @symbol_type<0> = [String,538,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [confirmation_input__reject,541,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 542 18 ]
+>>>>>>> Stashed changes
                 symbol [ WatchUi %tmp.105 542 27 34 ];
                 %tmp.105 = getm $.Toybox.WatchUi;
                 symbol [ KEY_DOWN %tmp.106 542 35 43 ];
                 %tmp.106 = getv %tmp.105 :KEY_DOWN;
                 putv self :button %tmp.106;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [button,542,18,24]; ]
             const button;
         }
@@ -1639,6 +2694,176 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 625; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 627 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [button,542,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 545; @symbol_moduledef = [system_icon_light__revert,545,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [filename,546,18,26]; @symbol_type<0> = [String,546,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [dithering,547,18,27]; @symbol_type<0> = [String,547,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 550; @symbol_moduledef = [system_size__subwindow,550,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 551; @position = 18; @symbol_constdef = [exclude,551,18,25]; @symbol_type<0> = [Boolean,551,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 554; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,554,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [filename,555,18,26]; @symbol_type<0> = [String,555,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [dithering,556,18,27]; @symbol_type<0> = [String,556,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 559; @symbol_moduledef = [system_icon_dark__check,559,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [filename,560,18,26]; @symbol_type<0> = [String,560,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [compress,561,18,26]; @symbol_type<0> = [String,561,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [dithering,562,18,27]; @symbol_type<0> = [String,562,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [automaticPalette,563,18,34]; @symbol_type<0> = [String,563,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 566; @symbol_moduledef = [confirmation_loc__hint_keep,566,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [x,567,18,19]; @symbol_type<0> = [Number,567,23,29]; ]
+            const x as Number = 16;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [y,568,18,19]; @symbol_type<0> = [Number,568,23,29]; ]
+            const y as Number = 275;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [horizontalJustification,569,18,41]; @symbol_type<0> = [String,569,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 572; @symbol_moduledef = [confirmation_loc__hint_delete,572,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [x,573,18,19]; @symbol_type<0> = [Number,573,23,29]; ]
+            const x as Number = 338;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [y,574,18,19]; @symbol_type<0> = [Number,574,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 577; @symbol_moduledef = [system_icon_positive__hint_action_menu,577,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [filename,578,18,26]; @symbol_type<0> = [String,578,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [dithering,579,18,27]; @symbol_type<0> = [String,579,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 582; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,582,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [exclude,583,18,25]; @symbol_type<0> = [Boolean,583,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 586; @symbol_moduledef = [system_icon_light__hint_button_left_middle,586,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 586; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [filename,587,18,26]; @symbol_type<0> = [String,587,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [dithering,588,18,27]; @symbol_type<0> = [String,588,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 591; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,591,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 591; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [filename,592,18,26]; @symbol_type<0> = [String,592,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [dithering,593,18,27]; @symbol_type<0> = [String,593,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 596; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,596,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [filename,597,18,26]; @symbol_type<0> = [String,597,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 601; @symbol_moduledef = [system_icon_dark__revert,601,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [filename,602,18,26]; @symbol_type<0> = [String,602,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [compress,603,18,26]; @symbol_type<0> = [String,603,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [dithering,604,18,27]; @symbol_type<0> = [String,604,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [automaticPalette,605,18,34]; @symbol_type<0> = [String,605,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 608; @symbol_moduledef = [confirmation_icon_light__hint_delete,608,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [filename,609,18,26]; @symbol_type<0> = [String,609,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [dithering,610,18,27]; @symbol_type<0> = [String,610,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 613; @symbol_moduledef = [system_icon_dark__question,613,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [filename,614,18,26]; @symbol_type<0> = [String,614,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [compress,615,18,26]; @symbol_type<0> = [String,615,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [dithering,616,18,27]; @symbol_type<0> = [String,616,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [automaticPalette,617,18,34]; @symbol_type<0> = [String,617,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [system_icon_light__discard,620,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [filename,621,18,26]; @symbol_type<0> = [String,621,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [dithering,622,18,27]; @symbol_type<0> = [String,622,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 625; @symbol_moduledef = [device_info,625,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 625; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 627 18 ]
+>>>>>>> Stashed changes
                 symbol [ Toybox %tmp.108 627 32 38 ];
                 %tmp.108 = getv ? :Toybox;
                 symbol [ System %tmp.109 627 39 45 ];
@@ -1647,6 +2872,7 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.110 = getv %tmp.109 :SCREEN_SHAPE_ROUND;
                 putv self :screenShape %tmp.110;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [screenWidth,626,18,29]; @symbol_type<0> = [Number,626,33,39]; ]
             const screenWidth as Number = 280;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [screenShape,627,18,29]; ]
@@ -1677,6 +2903,38 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 640; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 641 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [screenWidth,626,18,29]; @symbol_type<0> = [Number,626,33,39]; ]
+            const screenWidth as Number = 416;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [screenShape,627,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [hasNightMode,628,18,30]; @symbol_type<0> = [Boolean,628,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [hasGpu,629,18,24]; @symbol_type<0> = [Boolean,629,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [screenHeight,630,18,30]; @symbol_type<0> = [Number,630,34,40]; ]
+            const screenHeight as Number = 416;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [hasTouchScreen,631,18,32]; @symbol_type<0> = [Boolean,631,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,632,18,44]; @symbol_type<0> = [Boolean,632,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 635; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,635,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [filename,636,18,26]; @symbol_type<0> = [String,636,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [dithering,637,18,27]; @symbol_type<0> = [String,637,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 640; @symbol_moduledef = [prompt_font__body_no_title,640,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 640; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 641 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.111 641 34 42 ];
                 %tmp.111 = getm $.Toybox.Graphics;
                 symbol [ TEXT_JUSTIFY_CENTER %tmp.112 641 43 62 ];
@@ -1687,13 +2945,18 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
                 %tmp.114 = getv %tmp.113 :TEXT_JUSTIFY_VCENTER;
                 %tmp.115 = bitor %tmp.112 %tmp.114;
                 putv self :justification %tmp.115;
+<<<<<<< Updated upstream
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 642 18 ]
+=======
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 642 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.116 642 25 33 ];
                 %tmp.116 = getm $.Toybox.Graphics;
                 symbol [ FONT_TINY %tmp.117 642 34 43 ];
                 %tmp.117 = getv %tmp.116 :FONT_TINY;
                 putv self :font %tmp.117;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [justification,641,18,31]; ]
             const justification;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [font,642,18,22]; ]
@@ -1750,12 +3013,71 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 668; ]
             <init> {
 [ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen" 670 18 ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [justification,641,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [font,642,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 645; @symbol_moduledef = [prompt_size__title_icon,645,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 645; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [scaleX,646,18,24]; @symbol_type<0> = [Float,646,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [scaleRelativeTo,647,18,33]; @symbol_type<0> = [String,647,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 650; @symbol_moduledef = [system_icon_dark__warning,650,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [filename,651,18,26]; @symbol_type<0> = [String,651,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [compress,652,18,26]; @symbol_type<0> = [String,652,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [dithering,653,18,27]; @symbol_type<0> = [String,653,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [automaticPalette,654,18,34]; @symbol_type<0> = [String,654,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 657; @symbol_moduledef = [prompt_loc__title_icon,657,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 657; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [x,658,18,19]; @symbol_type<0> = [Number,658,23,29]; ]
+            const x as Number = 208;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [y,659,18,19]; @symbol_type<0> = [Number,659,23,29]; ]
+            const y as Number = 62;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [horizontalJustification,660,18,41]; @symbol_type<0> = [String,660,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [verticalJustification,661,18,39]; @symbol_type<0> = [String,661,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 664; @symbol_moduledef = [prompt_font_enhanced_readability__title,664,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 664; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [exclude,665,18,25]; @symbol_type<0> = [Boolean,665,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 668; @symbol_moduledef = [prompt_color_dark__body,668,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+[ "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen" 670 18 ]
+>>>>>>> Stashed changes
                 symbol [ Graphics %tmp.118 670 31 39 ];
                 %tmp.118 = getm $.Toybox.Graphics;
                 symbol [ COLOR_TRANSPARENT %tmp.119 670 40 57 ];
                 %tmp.119 = getv %tmp.118 :COLOR_TRANSPARENT;
                 putv self :background %tmp.119;
             }
+<<<<<<< Updated upstream
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [color,669,18,23]; @symbol_type<0> = [Number,669,27,33]; ]
             const color as Number = 0xFFFFFF;
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [background,670,18,28]; ]
@@ -1799,10 +3121,55 @@ c__Users_Zachary_OneDrive_Documents_GitHub_ShootingWatchApp_bin_gen_006_B3907_00
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [filename,689,18,26]; @symbol_type<0> = [String,689,30,36]; ]
             const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__check.svg";
             [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [dithering,690,18,27]; @symbol_type<0> = [String,690,31,37]; ]
+=======
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [color,669,18,23]; @symbol_type<0> = [Number,669,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [background,670,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 673; @symbol_moduledef = [confirmation_icon__hint_delete,673,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [filename,674,18,26]; @symbol_type<0> = [String,674,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [dithering,675,18,27]; @symbol_type<0> = [String,675,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 678; @symbol_moduledef = [system_icon_light__hint_button_right_top,678,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 678; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [filename,679,18,26]; @symbol_type<0> = [String,679,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [dithering,680,18,27]; @symbol_type<0> = [String,680,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 683; @symbol_moduledef = [confirmation_size__body,683,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [width,684,18,23]; @symbol_type<0> = [Number,684,27,33]; ]
+            const width as Number = 250;
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [height,685,18,24]; @symbol_type<0> = [Number,685,28,34]; ]
+            const height as Number = 250;
+        }
+        [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 688; @symbol_moduledef = [system_icon_positive__check,688,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 688; ]
+            <init> {
+            }
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [filename,689,18,26]; @symbol_type<0> = [String,689,30,36]; ]
+            const filename as String = "C:\\Users\\Zachary\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\epix2\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [dithering,690,18,27]; @symbol_type<0> = [String,690,31,37]; ]
+>>>>>>> Stashed changes
             const dithering as String = "none";
         }
     }
 }
-[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "c:\Users\Zachary\OneDrive\Documents\GitHub\ShootingWatchApp\bin\gen\006-B3943-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }
