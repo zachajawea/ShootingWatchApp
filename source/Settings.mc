@@ -52,6 +52,7 @@ class Settings {
     private const KEY_DELAY    as String = "delayMode";
     private const KEY_PAR_ON   as String = "parEnabled";
     private const KEY_PAR_SEC  as String = "parSeconds";
+    private const KEY_FIT      as String = "recordFit";
     private const KEY_MUZZLE   as String = "muzzleVelocityFps";
     private const KEY_BULLET   as String = "bulletWeightGr";
     private const KEY_FIREARM  as String = "firearmWeightOz";
@@ -60,6 +61,9 @@ class Settings {
     public var delayMode  as DelayMode = DELAY_RANDOM;
     public var parEnabled as Boolean   = false;
     public var parSeconds as Float     = 3.0;
+    // Export each string as a Garmin Connect .FIT activity. On by default; the
+    // export is silently skipped on devices that can't record activities.
+    public var recordFit  as Boolean   = true;
 
     // Firearm / ammunition profile. Together these describe the recoil impulse
     // a shot produces, which drives the accelerometer detection tuning (see
@@ -84,6 +88,8 @@ class Settings {
         if (v != null) { parEnabled = v as Boolean; }
         v = Storage.getValue(KEY_PAR_SEC);
         if (v != null) { parSeconds = v as Float; }
+        v = Storage.getValue(KEY_FIT);
+        if (v != null) { recordFit = v as Boolean; }
         v = Storage.getValue(KEY_MUZZLE);
         if (v != null) { muzzleVelocityFps = v as Number; }
         v = Storage.getValue(KEY_BULLET);
@@ -97,6 +103,7 @@ class Settings {
         Storage.setValue(KEY_DELAY,    delayMode);
         Storage.setValue(KEY_PAR_ON,   parEnabled);
         Storage.setValue(KEY_PAR_SEC,  parSeconds);
+        Storage.setValue(KEY_FIT,      recordFit);
         Storage.setValue(KEY_MUZZLE,   muzzleVelocityFps);
         Storage.setValue(KEY_BULLET,   bulletWeightGr);
         Storage.setValue(KEY_FIREARM,  firearmWeightOz);

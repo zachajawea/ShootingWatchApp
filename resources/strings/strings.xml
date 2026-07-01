@@ -27,6 +27,7 @@
     <string id="DelayRandom">Random 2-4s</string>
     <string id="ParEnabled">Par Time</string>
     <string id="ParSeconds">Par Seconds</string>
+    <string id="RecordFit">Save to Garmin</string>
     <string id="On">On</string>
     <string id="Off">Off</string>
 

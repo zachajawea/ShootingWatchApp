@@ -141,6 +141,45 @@ if (Attention has :vibrate) {
 
 ---
 
+## Activity recording & FIT export
+
+`Toybox.ActivityRecording` + `Toybox.FitContributor` (requires the **Fit**
+permission in `manifest.xml`). Produces a `.FIT` activity that syncs to Garmin
+Connect. Guard with `Toybox has :ActivityRecording` / `:FitContributor` — not
+every product/permission setup supports it.
+
+```monkeyc
+var session = ActivityRecording.createSession({
+    :name => "Shooting String",
+    :sport => Activity.SPORT_GENERIC,        // Activity.SPORT_* / SUB_SPORT_*
+    :subSport => Activity.SUB_SPORT_GENERIC
+});
+
+// Custom developer fields — create BEFORE save(). mesgType scopes the field to
+// the session / lap / record message.
+var f = session.createField("split", 4, FitContributor.DATA_TYPE_FLOAT, {
+    :mesgType => FitContributor.MESG_TYPE_LAP, :units => "s"
+});
+
+session.start();
+f.setData(0.18);        // writes to the currently-open lap
+session.addLap();       // closes the current lap, opens the next
+// ... summary fields then:
+session.stop();
+session.save();         // or session.discard() to throw the recording away
+```
+
+- Data types: `DATA_TYPE_{SINT8,UINT8,SINT16,UINT16,SINT32,UINT32,FLOAT,DOUBLE,STRING}`.
+- `addLap()` is the natural FIT construct for per-event splits/segments. To get
+  exactly one lap per event with no trailing empty lap, write the first event
+  into the session's initial lap and call `addLap()` *before* each subsequent
+  event (not after the last one).
+- Native lap wall-clock times reflect when `addLap()` actually fired. If your
+  events come from a buffered/batched source, prefer carrying the precise value
+  in a developer field rather than trusting the native lap duration.
+
+---
+
 ## Gotchas encountered / good practices
 
 - Calling several `Sensor`/`WatchUi` functions **crashes data-field apps** — use
