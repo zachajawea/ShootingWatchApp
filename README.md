@@ -81,7 +81,9 @@ profile.
 - **Par Time** — on/off plus a configurable par in seconds; a distinct double
   beep fires at par so you can train to a time standard
 - **Muzzle Velocity / Bullet Weight / Firearm Weight** — your firearm + load
-  profile; these drive the recoil-derived detection tuning (see table above)
+  profile; these drive the recoil-derived detection tuning (see table above).
+  Press START on one to open a digit editor: **UP/DOWN** change the highlighted
+  digit, **START** moves to the next digit, and **BACK** saves the value.
 - **Detection** — read-only readout of the resulting threshold / refractory
 - **Save to Garmin** — on/off; when on, each completed string is written as a
   Garmin Connect activity for later review (see below). On by default.

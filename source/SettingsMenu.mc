@@ -2,8 +2,11 @@
 // SettingsMenu.mc
 //
 // On-watch configuration via Menu2: course-of-fire drill, start-delay mode,
-// par on/off, and par time. Selecting an item cycles its value in place and
-// updates the item's sub-label. Settings are persisted when the menu closes.
+// par on/off, par time, and the firearm/ammunition profile. Selecting most
+// items cycles/toggles the value in place; the numeric profile values
+// (muzzle velocity, bullet weight, firearm weight) open a full-screen digit
+// editor instead (see NumberEditor.mc). Settings are persisted when the menu
+// closes.
 //
 import Toybox.Lang;
 import Toybox.WatchUi;
@@ -88,38 +91,70 @@ class SettingsMenu extends WatchUi.Menu2 {
         item.setSubLabel(parSecondsLabel());
     }
 
-    function cycleMuzzle(item as WatchUi.MenuItem) as Void {
-        var v = _settings.muzzleVelocityFps + MUZZLE_STEP_FPS;
-        if (v > MUZZLE_MAX_FPS) { v = MUZZLE_MIN_FPS; }
-        _settings.muzzleVelocityFps = v;
-        item.setSubLabel(muzzleLabel());
+    // ---- Ballistic profile: digit editors ----------------------------------
+    // Each of these values spans a wide range, so instead of cycling by a fixed
+    // step they open a full-screen NumberEditor. START cycles digits, UP/DOWN
+    // change the selected digit, BACK saves. On save the paired onXxxEdited
+    // callback stores the value and refreshes the labels.
+
+    function openMuzzleEditor() as Void {
+        var editor = new NumberEditorView(
+            WatchUi.loadResource(Rez.Strings.MuzzleVelocity) as String,
+            "fps", _settings.muzzleVelocityFps,
+            MUZZLE_MIN_FPS, MUZZLE_MAX_FPS, method(:onMuzzleEdited));
+        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+            WatchUi.SLIDE_UP);
+    }
+
+    function openBulletEditor() as Void {
+        var editor = new NumberEditorView(
+            WatchUi.loadResource(Rez.Strings.BulletWeight) as String,
+            "gr", _settings.bulletWeightGr,
+            BULLET_MIN_GR, BULLET_MAX_GR, method(:onBulletEdited));
+        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+            WatchUi.SLIDE_UP);
+    }
+
+    function openFirearmEditor() as Void {
+        var editor = new NumberEditorView(
+            WatchUi.loadResource(Rez.Strings.FirearmWeight) as String,
+            "oz", _settings.firearmWeightOz,
+            FIREARM_MIN_OZ, FIREARM_MAX_OZ, method(:onFirearmEdited));
+        WatchUi.pushView(editor, new NumberEditorDelegate(editor),
+            WatchUi.SLIDE_UP);
+    }
+
+    function onMuzzleEdited(value as Number) as Void {
+        _settings.muzzleVelocityFps = value;
+        setSubLabelById(:muzzle, muzzleLabel());
         refreshDetection();
     }
 
-    function cycleBullet(item as WatchUi.MenuItem) as Void {
-        var v = _settings.bulletWeightGr + BULLET_STEP_GR;
-        if (v > BULLET_MAX_GR) { v = BULLET_MIN_GR; }
-        _settings.bulletWeightGr = v;
-        item.setSubLabel(bulletLabel());
+    function onBulletEdited(value as Number) as Void {
+        _settings.bulletWeightGr = value;
+        setSubLabelById(:bullet, bulletLabel());
         refreshDetection();
     }
 
-    function cycleFirearm(item as WatchUi.MenuItem) as Void {
-        var v = _settings.firearmWeightOz + FIREARM_STEP_OZ;
-        if (v > FIREARM_MAX_OZ) { v = FIREARM_MIN_OZ; }
-        _settings.firearmWeightOz = v;
-        item.setSubLabel(firearmLabel());
+    function onFirearmEdited(value as Number) as Void {
+        _settings.firearmWeightOz = value;
+        setSubLabelById(:firearm, firearmLabel());
         refreshDetection();
     }
 
     // Keep the read-only detection-summary item in sync after any ballistic
     // variable changes.
     private function refreshDetection() as Void {
-        var idx = findItemById(:detection);
+        setSubLabelById(:detection, detectionLabel());
+    }
+
+    // Update a menu item's sub-label by its id, if present.
+    private function setSubLabelById(id as Symbol, label as String) as Void {
+        var idx = findItemById(id);
         if (idx >= 0) {
             var item = getItem(idx);
             if (item != null) {
-                item.setSubLabel(detectionLabel());
+                item.setSubLabel(label);
             }
         }
     }
@@ -193,11 +228,11 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
         } else if (id == :fitOn) {
             _menu.setFitEnabled((item as WatchUi.ToggleMenuItem).isEnabled());
         } else if (id == :muzzle) {
-            _menu.cycleMuzzle(item);
+            _menu.openMuzzleEditor();
         } else if (id == :bullet) {
-            _menu.cycleBullet(item);
+            _menu.openBulletEditor();
         } else if (id == :firearm) {
-            _menu.cycleFirearm(item);
+            _menu.openFirearmEditor();
         }
         // :detection is read-only (no cycle action).
         WatchUi.requestUpdate();

@@ -30,20 +30,17 @@ enum DelayMode {
 }
 
 // ---- Ballistic / firearm-profile bounds --------------------------------------
-// The on-watch menu cycles each variable through [min, max] in `step`
-// increments (wrapping back to min). Ranges cover common pistol/rifle loads.
+// The on-watch digit editor clamps each variable to [min, max] on save.
+// Ranges cover common pistol/rifle loads.
 
 const MUZZLE_MIN_FPS    as Number = 600;    // subsonic pistol floor
 const MUZZLE_MAX_FPS    as Number = 3300;   // centerfire rifle ceiling
-const MUZZLE_STEP_FPS   as Number = 50;
 
 const BULLET_MIN_GR     as Number = 30;     // light rimfire
 const BULLET_MAX_GR     as Number = 300;    // heavy magnum / rifle
-const BULLET_STEP_GR    as Number = 5;
 
 const FIREARM_MIN_OZ    as Number = 12;     // pocket pistol
 const FIREARM_MAX_OZ    as Number = 160;    // heavy rifle (10 lb)
-const FIREARM_STEP_OZ   as Number = 2;
 
 class Settings {
 
