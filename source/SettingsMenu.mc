@@ -35,6 +35,24 @@ class SettingsMenu extends WatchUi.Menu2 {
         addItem(new WatchUi.ToggleMenuItem(
             WatchUi.loadResource(Rez.Strings.RecordFit) as String,
             null, :fitOn, _settings.recordFit, null));
+
+        // Firearm / ammunition profile. These shape how the accelerometer
+        // detects shots (see Settings.getThresholdMilliG / getRefractoryMs).
+        addItem(new WatchUi.MenuItem(
+            WatchUi.loadResource(Rez.Strings.MuzzleVelocity) as String,
+            muzzleLabel(), :muzzle, null));
+
+        addItem(new WatchUi.MenuItem(
+            WatchUi.loadResource(Rez.Strings.BulletWeight) as String,
+            bulletLabel(), :bullet, null));
+
+        addItem(new WatchUi.MenuItem(
+            WatchUi.loadResource(Rez.Strings.FirearmWeight) as String,
+            firearmLabel(), :firearm, null));
+
+        addItem(new WatchUi.MenuItem(
+            WatchUi.loadResource(Rez.Strings.Detection) as String,
+            detectionLabel(), :detection, null));
     }
 
     function getSettings() as Settings {
@@ -70,6 +88,42 @@ class SettingsMenu extends WatchUi.Menu2 {
         item.setSubLabel(parSecondsLabel());
     }
 
+    function cycleMuzzle(item as WatchUi.MenuItem) as Void {
+        var v = _settings.muzzleVelocityFps + MUZZLE_STEP_FPS;
+        if (v > MUZZLE_MAX_FPS) { v = MUZZLE_MIN_FPS; }
+        _settings.muzzleVelocityFps = v;
+        item.setSubLabel(muzzleLabel());
+        refreshDetection();
+    }
+
+    function cycleBullet(item as WatchUi.MenuItem) as Void {
+        var v = _settings.bulletWeightGr + BULLET_STEP_GR;
+        if (v > BULLET_MAX_GR) { v = BULLET_MIN_GR; }
+        _settings.bulletWeightGr = v;
+        item.setSubLabel(bulletLabel());
+        refreshDetection();
+    }
+
+    function cycleFirearm(item as WatchUi.MenuItem) as Void {
+        var v = _settings.firearmWeightOz + FIREARM_STEP_OZ;
+        if (v > FIREARM_MAX_OZ) { v = FIREARM_MIN_OZ; }
+        _settings.firearmWeightOz = v;
+        item.setSubLabel(firearmLabel());
+        refreshDetection();
+    }
+
+    // Keep the read-only detection-summary item in sync after any ballistic
+    // variable changes.
+    private function refreshDetection() as Void {
+        var idx = findItemById(:detection);
+        if (idx >= 0) {
+            var item = getItem(idx);
+            if (item != null) {
+                item.setSubLabel(detectionLabel());
+            }
+        }
+    }
+
     // ---- Labels ------------------------------------------------------------
 
     private function drillLabel() as String {
@@ -95,6 +149,25 @@ class SettingsMenu extends WatchUi.Menu2 {
     private function parSecondsLabel() as String {
         return _settings.parSeconds.format("%.1f") + "s";
     }
+
+    private function muzzleLabel() as String {
+        return _settings.muzzleVelocityFps.toString() + " fps";
+    }
+
+    private function bulletLabel() as String {
+        return _settings.bulletWeightGr.toString() + " gr";
+    }
+
+    private function firearmLabel() as String {
+        return _settings.firearmWeightOz.toString() + " oz";
+    }
+
+    // Read-only summary of the recoil-derived detection tuning so the shooter
+    // can see how the ballistic profile affects shot detection.
+    private function detectionLabel() as String {
+        return _settings.getThresholdMilliG().toString() + " mG / "
+            + _settings.getRefractoryMs().toString() + " ms";
+    }
 }
 
 
@@ -119,7 +192,14 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             _menu.cycleParSeconds(item);
         } else if (id == :fitOn) {
             _menu.setFitEnabled((item as WatchUi.ToggleMenuItem).isEnabled());
+        } else if (id == :muzzle) {
+            _menu.cycleMuzzle(item);
+        } else if (id == :bullet) {
+            _menu.cycleBullet(item);
+        } else if (id == :firearm) {
+            _menu.cycleFirearm(item);
         }
+        // :detection is read-only (no cycle action).
         WatchUi.requestUpdate();
     }
 
