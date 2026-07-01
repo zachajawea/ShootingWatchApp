@@ -82,8 +82,9 @@ profile.
   beep fires at par so you can train to a time standard
 - **Muzzle Velocity / Bullet Weight / Firearm Weight** — your firearm + load
   profile; these drive the recoil-derived detection tuning (see table above).
-  Press START on one to open a digit editor: **UP/DOWN** change the highlighted
-  digit, **START** moves to the next digit, and **BACK** saves the value.
+  Selecting one opens a multi-digit number picker (`WatchUi.Picker`):
+  **UP/DOWN** change the focused digit, **START** advances to the next digit,
+  and confirming the last digit applies the value (clamped to its range).
 - **Detection** — read-only readout of the resulting threshold / refractory
 - **Save to Garmin** — on/off; when on, each completed string is written as a
   Garmin Connect activity for later review (see below). On by default.
