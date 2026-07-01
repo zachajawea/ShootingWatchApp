@@ -3,13 +3,13 @@
 //
 // A multi-digit number picker for the firearm/ammunition profile values
 // (muzzle velocity, bullet weight, firearm weight). Built on the Connect IQ
-// picker framework: WatchUi.Picker with one WatchUi.NumberFactory column per
-// decimal digit.
+// picker framework: WatchUi.Picker with one NumberFactory (a PickerFactory
+// subclass, adapted from the Garmin Picker sample) column per decimal digit.
 //
 // (WatchUi.NumberPicker itself only supports time/duration modes — days,
 // hours:minutes, minutes:seconds, seconds — so it can't represent ranges like
-// 600-3300 fps. WatchUi.Picker + NumberFactory is the general-purpose number
-// picker the framework provides.)
+// 600-3300 fps. WatchUi.Picker + a custom NumberFactory is the general-purpose
+// number picker approach the framework's Picker sample demonstrates.)
 //
 // Interaction (button devices):
 //   * UP / DOWN  – change the focused digit (0-9).
@@ -54,7 +54,7 @@ class BallisticPicker extends WatchUi.Picker {
         var factories = new [digits] as Array<WatchUi.PickerFactory>;
         var defaults = new [digits] as Array<Number>;
         for (var i = digits - 1; i >= 0; i--) {
-            factories[i] = new WatchUi.NumberFactory(0, 9, 1, {});
+            factories[i] = new NumberFactory(0, 9, 1, {});
             defaults[i] = v % 10;
             v = v / 10;
         }
