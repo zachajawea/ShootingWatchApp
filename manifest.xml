@@ -6,6 +6,10 @@
       * <iq:permissions> MUST contain "Sensor". Without it, the call to
         Sensor.registerSensorDataListener() throws a permission error at
         runtime and the app is rejected at store submission.
+      * "Fit" is required for the optional .FIT export: ActivityRecording +
+        FitContributor write each string as a Garmin Connect activity. Devices
+        that lack ActivityRecording simply skip the export (the code guards it),
+        so the permission does not restrict the product list below.
       * minApiLevel is 3.2.0 because we rely on getMaxSampleRateForSensorType()
         and the high-frequency sensor-data listener with timestamps/power.
       * Replace the id attribute with your own UUID before building for the
@@ -39,6 +43,7 @@
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Sensor"/>
+            <iq:uses-permission id="Fit"/>
         </iq:permissions>
         <iq:languages>
             <iq:language>eng</iq:language>
